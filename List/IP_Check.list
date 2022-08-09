@@ -2,66 +2,66 @@
 #https://raw.githubusercontent.com/bunizao/TutuBetterRules/tutu/RuleList/DOMAlN/Anti-IPCheck.list
 
 #微博
-HOST-KEYWORD,weibo,IP_Check
+DOMAIN-KEYWORD,weibo
 #抖音
-HOST-KEYWORD,douyin,IP_Check
-HOST-KEYWORD,amemv,IP_Check
-HOST-KEYWORD,zijie,IP_Check
-HOST-KEYWORD,zjcdn,IP_Check
+DOMAIN-KEYWORD,douyin
+DOMAIN-KEYWORD,amemv
+DOMAIN-KEYWORD,zijie
+DOMAIN-KEYWORD,zjcdn
 
 #bilibili
-HOST-SUFFIX,biliapi.net,IP_Check
-HOST,api.bilibili.com,IP_Check
-HOST,api.bilibili.tv,IP_Check
-HOST,app.bilibili.com,IP_Check
-HOST-SUFFIX,biliapi.com,IP_Check
-HOST,api.live.bilibili.com,IP_Check
-HOST,api.vc.bilibili.com,IP_Check
-HOST,passport.bilibili.com,IP_Check
-HOST,live-trace.bilibili.com,IP_Check
-HOST,message.bilibili.com,IP_Check
-HOST,cm.bilibili.com,IP_Check
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN,api.bilibili.com
+DOMAIN,api.bilibili.tv
+DOMAIN,app.bilibili.com
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN,api.live.bilibili.com
+DOMAIN,api.vc.bilibili.com
+DOMAIN,passport.bilibili.com
+DOMAIN,live-trace.bilibili.com
+DOMAIN,message.bilibili.com
+DOMAIN,cm.bilibili.com
 
 # ======= 微博 ======= #
-HOST,api.weibo.cn,IP_Check
-HOST,api.weibo.com,IP_Check
+DOMAIN,api.weibo.cn
+DOMAIN,api.weibo.com
 
 # ======= 百度贴吧 ======= #
-HOST,tieba.baidu.com,IP_Check
-HOST,tbmsg.baidu.com,IP_Check
-HOST,tb5.bdstatic.com,IP_Check
-HOST,fclog.baidu.com,IP_Check
-HOST,gsp0.baidu.com,IP_Check
-HOST,hm.baidu.com,IP_Check
-HOST,www.baidu.com,IP_Check
+DOMAIN,tieba.baidu.com
+DOMAIN,tbmsg.baidu.com
+DOMAIN,tb5.bdstatic.com
+DOMAIN,fclog.baidu.com
+DOMAIN,gsp0.baidu.com
+DOMAIN,hm.baidu.com
+DOMAIN,www.baidu.com
  
 # ======= 微信 ======= #
-HOST,szshort.weixin.qq.com,IP_Check
-HOST,szextshort.weixin.qq.com,IP_Check
-HOST,szminorshort.weixin.qq.com,IP_Check
-HOST,mp.weixin.qq.com,IP_Check
-HOST,sgminorshort.wechat.com,IP_Check
-HOST,sgshort.wechat.com,IP_Check
+DOMAIN,szshort.weixin.qq.com
+DOMAIN,szextshort.weixin.qq.com
+DOMAIN,szminorshort.weixin.qq.com
+DOMAIN,mp.weixin.qq.com
+DOMAIN,sgminorshort.wechat.com
+DOMAIN,sgshort.wechat.com
 
 # ======= 知乎 ======= #
-#HOST,zhihu-web-analytics.zhihu.com,IP_Check
-#HOST,www.zhihu.com,IP_Check
-#HOST,api.zhihu.com,IP_Check
-HOST-SUFFIX,zhihu.com,IP_Check
-IP-CIDR,103.41.167.0/24,IP_Check
+#DOMAIN,zhihu-web-analytics.zhihu.com
+#DOMAIN,www.zhihu.com
+#DOMAIN,api.zhihu.com
+DOMAIN-SUFFIX,zhihu.com
+IP-CIDR,103.41.167.0/24
 
 # ======= 抖音 ======= #
 # 请求域名过多，建议全局代理
-HOST-KEYWORD,core-c-lq,IP_Check
-HOST-KEYWORD,core-lq,IP_Check
-HOST-KEYWORD,normal-c-lq,IP_Check
-HOST-KEYWORD,normal-lq,IP_Check
-HOST-KEYWORD,search-quic-lq,IP_Check
-HOST-KEYWORD,search-lq,IP_Check
+DOMAIN-KEYWORD,core-c-lq
+DOMAIN-KEYWORD,core-lq
+DOMAIN-KEYWORD,normal-c-lq
+DOMAIN-KEYWORD,normal-lq
+DOMAIN-KEYWORD,search-quic-lq
+DOMAIN-KEYWORD,search-lq
 
 # ======= 头条 ======= #
 # 网友提供头条IP定位接口
-HOST-SUFFIX,toutiaoapi.com,IP_Check
+DOMAIN-SUFFIX,toutiaoapi.com
 
 # ======= 国家反诈中心 ======= #
-HOST-SUFFIX,gjfzpt.cn,IP_Check
+DOMAIN-SUFFIX,gjfzpt.cn

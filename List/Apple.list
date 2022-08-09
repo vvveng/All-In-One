@@ -1,33 +1,32 @@
 # Apple
-HOST,testflight.apple.com,TestFlight
-HOST, p22-buy.itunes.apple.com, 特殊域名
-HOST, buy.itunes.apple.com, 特殊域名
-HOST-SUFFIX,apple.co,特殊域名
-HOST, in.appcenter.ms, 特殊域名
+DOMAIN, p22-buy.itunes.apple.com, 特殊域名
+DOMAIN, buy.itunes.apple.com, 特殊域名
+DOMAIN-SUFFIX,apple.co,特殊域名
+DOMAIN, in.appcenter.ms, 特殊域名
 
-HOST-SUFFIX,aaplimg.com,苹果服务
-HOST-SUFFIX,apple.com,苹果服务
-HOST-SUFFIX,apple.com.cn,苹果服务
-HOST-SUFFIX,apple-cloudkit.com,苹果服务
-HOST-SUFFIX,appstore.com,苹果服务
-HOST-SUFFIX,cdn-apple.com,苹果服务
-HOST-SUFFIX,icloud.com,苹果服务
-HOST-SUFFIX,icloud.com.cn,苹果服务
-HOST-SUFFIX,icloud-content.com,苹果服务
-HOST-SUFFIX,me.com,苹果服务
-HOST-SUFFIX,mzstatic.com,苹果服务
-HOST,apple.comscoreresearch.com,苹果服务
-HOST-KEYWORD,apple.com.akadns.net,苹果服务
-HOST-KEYWORD,icloud.com.akadns.net,苹果服务
-HOST,inappcheck.itunes.apple.com,苹果服务
-HOST, xp.apple.com, 苹果服务
-HOST-SUFFIX,apple.news,苹果服务
-HOST-SUFFIX,appsto.re,苹果服务
-IP-CIDR,17.0.0.0/8,苹果服务
-IP-CIDR,63.92.224.0/19,苹果服务
-IP-CIDR,65.199.22.0/23,苹果服务
-IP-CIDR,139.178.128.0/18,苹果服务
-IP-CIDR,144.178.0.0/19,苹果服务
-IP-CIDR,192.35.50.0/24,苹果服务
-IP-CIDR,198.183.17.0/24,苹果服务
-IP-CIDR,205.180.175.0/24,苹果服务
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN,apple.comscoreresearch.com
+DOMAIN-KEYWORD,apple.com.akadns.net
+DOMAIN-KEYWORD,icloud.com.akadns.net
+DOMAIN,inappcheck.itunes.apple.com
+DOMAIN, xp.apple.com
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,appsto.re
+IP-CIDR,17.0.0.0/8
+IP-CIDR,63.92.224.0/19
+IP-CIDR,65.199.22.0/23
+IP-CIDR,139.178.128.0/18
+IP-CIDR,144.178.0.0/19
+IP-CIDR,192.35.50.0/24
+IP-CIDR,198.183.17.0/24
+IP-CIDR,205.180.175.0/24
