@@ -1,0 +1,198 @@
+# > PayPal
+USER-AGENT,PayPal*,Paypal
+HOST-SUFFIX,paypal.com,Paypal
+HOST-SUFFIX,paypal.me,Paypal
+HOST-SUFFIX,paypalobjects.com,Paypal
+HOST-KEYWORD,paypal,Paypal
+
+# >Emby
+HOST, emby.cjpc.cc, Emby
+HOST-SUFFIX,jmsooo.com, Emby
+HOST-SUFFIX,play.charontv.com, Emby
+ip-cidr, 194.180.179.0/23, Emby
+ip-cidr, 185.197.194.0/29, Emby
+
+# > Telegram
+HOST-SUFFIX,telegra.ph,Telegram
+HOST-SUFFIX,telegram.org,Telegram
+IP-CIDR,91.108.4.0/22,Telegram
+IP-CIDR,91.108.8.0/22,Telegram
+IP-CIDR,91.108.12.0/22,Telegram
+IP-CIDR,91.108.16.0/22,Telegram
+IP-CIDR,91.108.20.0/22,Telegram
+IP-CIDR,91.108.56.0/22,Telegram
+IP-CIDR,91.105.192.0/23,Telegram
+IP-CIDR,149.154.160.0/20,Telegram
+IP-CIDR,185.76.151.0/24,Telegram
+IP6-CIDR,2001:b28:f23d::/48,Telegram
+IP6-CIDR,2001:b28:f23f::/48,Telegram
+IP6-CIDR,2001:67c:4e8::/48,Telegram
+IP6-CIDR,2001:b28:f23c::/48,Telegram
+IP6-CIDR,2a0a:f280::/32,Telegram
+HOST-SUFFIX,t.me,Telegram
+HOST-SUFFIX,tdesktop.com,Telegram
+HOST-SUFFIX,telegram.me,Telegram
+HOST-SUFFIX,telesco.pe,Telegram
+HOST, my.nicegram.app,Telegram
+HOST, validator.nicegram.app, Telegram
+
+# > Google
+HOST-SUFFIX,appspot.com,Google
+HOST-SUFFIX,blogger.com,Google
+HOST-SUFFIX,getoutline.org,Google
+HOST-SUFFIX,gvt0.com,Google
+HOST-SUFFIX,gvt1.com,Google
+HOST-SUFFIX,gvt3.com,Google
+HOST-SUFFIX,xn—ngstr-lra8j.com,Google
+HOST-SUFFIX,ytimg.com,Google
+HOST-KEYWORD,google,Google
+HOST-KEYWORD,.blogspot.,Google
+IP-CIDR,35.190.247.0/24,Google
+IP-CIDR,64.233.160.0/19,Google
+IP-CIDR,66.102.0.0/20,Google
+IP-CIDR,66.249.80.0/20,Google
+IP-CIDR,72.14.192.0/18,Google
+IP-CIDR,74.125.0.0/16,Google
+IP-CIDR,108.177.8.0/21,Google
+IP-CIDR,172.217.0.0/16,Google
+IP-CIDR,173.194.0.0/16,Google
+IP-CIDR,209.85.128.0/17,Google
+IP-CIDR,216.58.192.0/19,Google
+IP-CIDR,216.239.32.0/19,Google
+HOST-SUFFIX,go.dev,Google
+HOST-SUFFIX,golang.org,Google
+
+# > Twitter
+HOST-SUFFIX,pscp.tv,Twitter
+HOST-SUFFIX,periscope.tv,Twitter
+HOST-SUFFIX,t.co,Twitter
+HOST-SUFFIX,twimg.co,Twitter
+HOST-SUFFIX,twimg.com,Twitter
+HOST-SUFFIX,twitpic.com,Twitter
+HOST-SUFFIX,twitter.com,Twitter
+HOST-SUFFIX,vine.co,Twitter
+HOST-SUFFIX,twitter.jp,Twitter
+IP-CIDR,69.195.160.0/19,Twitter
+IP-CIDR,104.244.42.0/21,Twitter
+IP-CIDR,192.133.76.0/22,Twitter
+IP-CIDR,199.16.156.0/22,Twitter
+IP-CIDR,199.59.148.0/22,Twitter
+IP-CIDR,199.96.56.0/21,Twitter
+IP-CIDR,202.160.128.0/22,Twitter
+IP-CIDR,209.237.192.0/19,Twitter
+
+# > YouTube
+USER-AGENT,com.google.ios.youtube*,YouTube
+USER-AGENT,YouTube*,YouTube
+HOST-SUFFIX,googlevideo.com,YouTube
+HOST-SUFFIX,youtube.com,YouTube
+HOST-SUFFIX,ytimg.com,YouTube
+HOST,youtubei.googleapis.com,YouTube
+HOST,yt3.ggpht.com,YouTube
+HOST-KEYWORD,youtu.be,YouTube
+# > YouTubeMusic
+USER-AGENT,com.google.ios.youtubemusic*,YouTube
+USER-AGENT,YouTubeMusic*,YouTube
+
+# > Facebook
+HOST-SUFFIX,cdninstagram.com,Facebook
+HOST-SUFFIX,facebook.com,Facebook
+HOST-SUFFIX,facebook.net,Facebook
+HOST-SUFFIX,fb.com,Facebook
+HOST-SUFFIX,fb.me,Facebook
+HOST-SUFFIX,fbaddins.com,Facebook
+HOST-SUFFIX,fbcdn.net,Facebook
+HOST-SUFFIX,fbsbx.com,Facebook
+HOST-SUFFIX,fbworkmail.com,Facebook
+HOST-SUFFIX,instagram.com,Facebook
+HOST-SUFFIX,m.me,Facebook
+HOST-SUFFIX,messenger.com,Facebook
+HOST-SUFFIX,oculus.com,Facebook
+HOST-SUFFIX,oculuscdn.com,Facebook
+HOST-SUFFIX,rocksdb.org,Facebook
+HOST-SUFFIX,whatsapp.com,Facebook
+HOST-SUFFIX,whatsapp.net,Facebook
+IP-CIDR,31.13.24.0/21,Facebook
+IP-CIDR,31.13.64.0/18,Facebook
+IP-CIDR,45.64.40.0/22,Facebook
+IP-CIDR,66.220.144.0/20,Facebook
+IP-CIDR,69.63.176.0/20,Facebook
+IP-CIDR,69.171.224.0/19,Facebook
+IP-CIDR,74.119.76.0/22,Facebook
+IP-CIDR,103.4.96.0/22,Facebook
+IP-CIDR,129.134.0.0/17,Facebook
+IP-CIDR,157.240.0.0/17,Facebook
+IP-CIDR,173.252.64.0/19,Facebook
+IP-CIDR,173.252.96.0/19,Facebook
+IP-CIDR,179.60.192.0/22,Facebook
+IP-CIDR,185.60.216.0/22,Facebook
+IP-CIDR,204.15.20.0/22,Facebook
+
+# > Github
+HOST-SUFFIX,atom.io,Github
+HOST-SUFFIX,dependabot.com,Github
+HOST-SUFFIX,ghcr.io,Github
+HOST-SUFFIX,git.io,Github
+HOST-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net,Github
+HOST-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com,Github
+HOST-SUFFIX,github-cloud.s3.amazonaws.com,Github
+HOST-SUFFIX,github.blog,Github
+HOST-SUFFIX,github.com,Github
+HOST-SUFFIX,github.community,Github
+HOST-SUFFIX,github.dev,Github
+HOST-SUFFIX,github.io,Github
+HOST-SUFFIX,githubapp.com,Github
+HOST-SUFFIX,githubassets.com,Github
+HOST-SUFFIX,githubhackathon.com,Github
+HOST-SUFFIX,githubpreview.dev,Github
+HOST-SUFFIX,githubstatus.com,Github
+HOST-SUFFIX,githubuniverse.com,Github
+HOST-SUFFIX,githubusercontent.com,Github
+HOST-SUFFIX,myoctocat.com,Github
+HOST-SUFFIX,npm.community,Github
+HOST-SUFFIX,npmjs.com,Github
+HOST-SUFFIX,npmjs.org,Github
+HOST-SUFFIX,opensource.guide,Github
+HOST-SUFFIX,rawgit.com,Github
+HOST-SUFFIX,rawgithub.com,Github
+HOST-SUFFIX,thegithubshop.com,Github
+HOST-KEYWORD,github,Github
+
+# > TikTok
+USER-AGENT,TikTok*,TikTok
+HOST-SUFFIX,byteoversea.com,TikTok
+HOST-SUFFIX,ibytedtos.com,TikTok
+HOST-SUFFIX,ipstatp.com,TikTok
+HOST-SUFFIX,muscdn.com,TikTok
+HOST-SUFFIX,musical.ly,TikTok
+HOST-SUFFIX,tiktok.com,TikTok
+HOST-SUFFIX,tik-tokapi.com,TikTok
+HOST-SUFFIX,tiktokcdn.com,TikTok
+HOST-SUFFIX,tiktokv.com,TikTok
+HOST-KEYWORD,tiktokcdn-,TikTok
+
+# > Spotify
+USER-AGENT,Spotify*,Spotify
+HOST-SUFFIX,pscdn.co,Spotify
+HOST-SUFFIX,scdn.co,Spotify
+HOST-SUFFIX,spotify.com,Spotify
+HOST-SUFFIX,spoti.fi,Spotify
+HOST-KEYWORD,spotify.com,Spotify
+HOST-KEYWORD,-spotify-com,Spotify
+
+# > Discord
+HOST-SUFFIX,discord.com,♻️自用节选
+HOST-SUFFIX,discordapp.com,♻️自用节选
+HOST-SUFFIX,discordapp.net,♻️自用节选
+HOST-KEYWORD,discord.media,♻️自用节选
+
+# > Speedtest
+USER-AGENT,Speedtest*,Speedtest
+HOST,5g.shunicomtest.com,Speedtest
+HOST,cmnet-speed.com,Speedtest
+HOST,owa.eastcom-sw.com,Speedtest
+HOST,speedtest02.js165.com,Speedtest
+HOST-KEYWORD,speedtest,Speedtest
+HOST-KEYWORD,speed.misaka.one,Speedtest
+HOST,ookla-hidc.hgconair.hgc.com.hk,Speedtest
+HOST,hkg-nperf.verizon.net,Speedtest
