@@ -69,9 +69,6 @@ DOMAIN, t.net.co, 🔰 Proxy
 DOMAIN, www.cordc.net, 🔰 Proxy
 DOMAIN, sm.ms, 🔰 Proxy
 DOMAIN-SUFFIX,nssurge.com,🔰 Proxy
-DOMAIN, m.baidu.com, ⛔️ Reject
-DOMAIN, m.hupu.com, ⛔️ Reject
-DOMAIN, xw.qq.com, ⛔️ Reject
 # AppRaven
 RULE-SET,https://raw.githubusercontent.com/sunlc123/All-In-One/main/List/AppRaven.list,🦅 AppRaven
 # Speedtest
