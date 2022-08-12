@@ -3,6 +3,7 @@
 
 [Rule]
 RULE-SET,LAN,🔘 DIRECT //LAN直连
+DOMAIN-KEYWORD, sub-store,🔘 DIRECT
 IP-ASN,132203,🔘 DIRECT,no-resolve // WeChat
 DOMAIN-SUFFIX,bing.com,🔘 DIRECT
 DOMAIN-SUFFIX,notion.so,🔰 Proxy
@@ -69,22 +70,23 @@ DOMAIN, t.net.co, 🔰 Proxy
 DOMAIN, www.cordc.net, 🔰 Proxy
 DOMAIN, sm.ms, 🔰 Proxy
 DOMAIN-SUFFIX,nssurge.com,🔰 Proxy
+DOMAIN, www.bloomberg.com, 🔰 Proxy
 # AppRaven
-RULE-SET,https://raw.githubusercontent.com/sunlc123/All-In-One/main/List/AppRaven.list,🦅 AppRaven
+RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/AppRaven.list,🦅 AppRaven
 # Speedtest
-RULE-SET,https://raw.githubusercontent.com/sunlc123/All-In-One/main/List/Speedtest.list,⚡️ Speedtest
+RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Speedtest.list,⚡️ Speedtest
 # PayPal
-RULE-SET,https://raw.githubusercontent.com/sunlc123/All-In-One/main/List/PayPal.list,💳 PayPal
+RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/PayPal.list,💳 PayPal
 # TF
-RULE-SET,https://raw.githubusercontent.com/sunlc123/All-In-One/main/List/Testflight.list,❄️ Testflight
+RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Testflight.list,❄️ Testflight
 # Apple
-RULE-SET,https://raw.githubusercontent.com/sunlc123/All-In-One/main/List/Apple.list,🍎 Apple
+RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Apple.list,🍎 Apple
 # Telegram 特殊代理
-RULE-SET,https://raw.githubusercontent.com/sunlc123/All-In-One/main/List/Telegram.list,✈️ Telegram
+RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Telegram.list,✈️ Telegram
 # Emby
-RULE-SET,https://raw.githubusercontent.com/sunlc123/All-In-One/main/List/Emby.list,📽 Emby
+RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Emby.list,📽 Emby
 # Github
-RULE-SET,https://raw.githubusercontent.com/sunlc123/All-In-One/main/List/Github.list,🐱 Github
+RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Github.list,🐱 Github
 # Advertising 广告
 RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list,🚧 AdGuard
 # Privacy 隐私
@@ -96,15 +98,15 @@ RULE-SET,https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/C
 # China 中国直连规则
 RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list,🚓 Inbound
 # Tiktok
-RULE-SET,https://raw.githubusercontent.com/sunlc123/All-In-One/main/List/Tiktok.list,🎵 Tiktok
+RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Tiktok.list,🎵 Tiktok
 # YouTube
-RULE-SET,https://raw.githubusercontent.com/sunlc123/All-In-One/main/List/YouTube.list,🌐 YouTube
+RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/YouTube.list,🌐 YouTube
 # Google
-RULE-SET,https://raw.githubusercontent.com/sunlc123/All-In-One/main/List/Google.list,🔎 Google
+RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Google.list,🔎 Google
 # Facebook
-RULE-SET,https://raw.githubusercontent.com/sunlc123/All-In-One/main/List/Facebook.list,📖 Facebook
+RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Facebook.list,📖 Facebook
 # Spotify
-RULE-SET,https://raw.githubusercontent.com/sunlc123/All-In-One/main/List/Spotify.list,🎧 Spotify
+RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Spotify.list,🎧 Spotify
 # 自定义多区域媒体应用
 # Streaming TW
 RULE-SET,https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/Streaming_TW.list,🇨🇳 Taiwan
