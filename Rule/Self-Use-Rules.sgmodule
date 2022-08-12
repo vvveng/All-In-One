@@ -73,6 +73,7 @@ DOMAIN-SUFFIX,nssurge.com,🔰 Proxy
 DOMAIN, m.baidu.com, 🔰 Proxy
 DOMAIN-KEYWORD, mo.baidu.com, ⛔️ Reject
 IP-ASN, , ⛔️ Reject
+IP-ASN, , ⛔️ Reject
 # IP_Check
 RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/IP_Check.list,🅿️ IP_Check
 # AppRaven
