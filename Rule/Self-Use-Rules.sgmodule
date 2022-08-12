@@ -70,24 +70,25 @@ DOMAIN, t.net.co, 🔰 Proxy
 DOMAIN, www.cordc.net, 🔰 Proxy
 DOMAIN, sm.ms, 🔰 Proxy
 DOMAIN-SUFFIX,nssurge.com,🔰 Proxy
+DOMAIN, m.baidu.com, 🔰 Proxy
 # IP_Check
 RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/IP_Check.list,🅿️ IP_Check
 # AppRaven
 RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/AppRaven.list,🦅 AppRaven
 # Speedtest
-RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Speedtest.list,⚡️ Speedtest
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Speedtest/Speedtest.list,⚡️ Speedtest
 # PayPal
-RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/PayPal.list,💳 PayPal
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list,💳 PayPal
 # TF
-RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Testflight.list,❄️ Testflight
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TestFlight/TestFlight.list,❄️ Testflight
 # Apple
-RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Apple.list,🍎 Apple
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list,🍎 Apple
 # Telegram 特殊代理
-RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Telegram.list,✈️ Telegram
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list,✈️ Telegram
 # Emby
 RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Emby.list,📽 Emby
 # Github
-RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Github.list,🐱 Github
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list,🐱 Github
 # Advertising 广告
 RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list,🚧 AdGuard
 # Privacy 隐私
@@ -97,19 +98,19 @@ RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ru
 # Biliili｜CN TW
 RULE-SET,https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/CNTV.list,📺 CNTV
 # China 中国直连规则
-RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list,🚓 Inbound
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/China/China.list,🚓 Inbound
 # Tiktok
-RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Tiktok.list,🎵 Tiktok
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list,🎵 Tiktok
 # YouTube
-RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/YouTube.list,🚰 YouTube
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list,🚰 YouTube
 # Google
-RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Google.list,🔎 Google
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list,🔎 Google
 # Twitter
-RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Twitter.list,🐤 Twitter
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Twitter/Twitter.list,🐤 Twitter
 # Facebook
-RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Facebook.list,📖 Facebook
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Facebook/Facebook.list,📖 Facebook
 # Spotify
-RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Spotify.list,🎧 Spotify
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list,🎧 Spotify
 # 自定义多区域媒体应用
 # Streaming TW
 RULE-SET,https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/Streaming_TW.list,🇨🇳 TW
@@ -121,9 +122,9 @@ RULE-SET,https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/S
 RULE-SET,https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/Streaming.list,🎬 Streaming
 # 国内流媒体服务加速规则（适用于 iQIYI Intl,WeTV,Bilibili 等大陆在港台东南亚提供服务的流媒体服务）
 # Apple TV 区域检测
-RULE-SET,https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/Apple/Apple%20TV.list,🍏 TV
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleTV/AppleTV.list,🍏 TV
 # Global 全球加速规则
-RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list,🚁 Outbound
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Global/Global.list,🚁 Outbound
 # Local Area Network
 # 使用来自 ipipdotnet 的 ChinaIP 以解决数据不准确的问题，使用 ChinaIP.list 时禁用「GEOIP,CN」规则
 # RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list,🚓 Inbound

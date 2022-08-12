@@ -1,10 +1,7 @@
 # > Speedtest
-USER-AGENT,Speedtest*
-DOMAIN,5g.shunicomtest.com
-DOMAIN,cmnet-speed.com
-DOMAIN,owa.eastcom-sw.com
-DOMAIN,speedtest02.js165.com
+DOMAIN-SUFFIX,fast.com
+DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN-SUFFIX,speed.cloudflare.com
+DOMAIN-SUFFIX,speed.dler.io
 DOMAIN-KEYWORD,speedtest
-DOMAIN-KEYWORD,speed.misaka.one
-DOMAIN,ookla-hidc.hgconair.hgc.com.hk
-DOMAIN,hkg-nperf.verizon.net
+USER-AGENT,SpeedTest*
