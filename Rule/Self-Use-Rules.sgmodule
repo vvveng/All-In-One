@@ -70,8 +70,6 @@ DOMAIN, t.net.co, 🔰 Proxy
 DOMAIN, www.cordc.net, 🔰 Proxy
 DOMAIN, sm.ms, 🔰 Proxy
 DOMAIN-SUFFIX,nssurge.com,🔰 Proxy
-DOMAIN, www.bloomberg.com, 🔰 Proxy
-IP-ASN, sub-store.vercel.app, ⛔️ Reject
 # IP_Check
 RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/IP_Check.list,🅿️ IP_Check
 # AppRaven
