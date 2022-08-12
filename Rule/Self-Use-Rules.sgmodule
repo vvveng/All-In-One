@@ -1,5 +1,5 @@
 #!name=Self-Use Rules
-#!desc=自用规则配置
+#!desc=自用 Rules
 
 [Rule]
 RULE-SET,LAN,🔘 DIRECT //LAN直连
@@ -71,6 +71,9 @@ DOMAIN, www.cordc.net, 🔰 Proxy
 DOMAIN, sm.ms, 🔰 Proxy
 DOMAIN-SUFFIX,nssurge.com,🔰 Proxy
 DOMAIN, www.bloomberg.com, 🔰 Proxy
+IP-ASN, sub-store.vercel.app, ⛔️ Reject
+# IP_Check
+RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/IP_Check.list,🅿️ IP_Check
 # AppRaven
 RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/AppRaven.list,🦅 AppRaven
 # Speedtest
@@ -100,20 +103,22 @@ RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ru
 # Tiktok
 RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Tiktok.list,🎵 Tiktok
 # YouTube
-RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/YouTube.list,🌐 YouTube
+RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/YouTube.list,🚰 YouTube
 # Google
 RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Google.list,🔎 Google
+# Twitter
+RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Twitter.list,🐤 Twitter
 # Facebook
 RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Facebook.list,📖 Facebook
 # Spotify
 RULE-SET,https://raw.githubusercontent.com/vvveng/All-In-One/main/List/Spotify.list,🎧 Spotify
 # 自定义多区域媒体应用
 # Streaming TW
-RULE-SET,https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/Streaming_TW.list,🇨🇳 Taiwan
+RULE-SET,https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/Streaming_TW.list,🇨🇳 TW
 # Streaming JP
-RULE-SET,https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/Streaming_JP.list,🇯🇵 Japan
+RULE-SET,https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/Streaming_JP.list,🇯🇵 JP
 # Streaming US
-RULE-SET,https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/Streaming_US.list,🇺🇸 America
+RULE-SET,https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/Streaming_US.list,🇺🇸 US
 # Streaming
 RULE-SET,https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/Streaming.list,🎬 Streaming
 # 国内流媒体服务加速规则（适用于 iQIYI Intl,WeTV,Bilibili 等大陆在港台东南亚提供服务的流媒体服务）
