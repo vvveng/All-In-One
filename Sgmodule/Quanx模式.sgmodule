@@ -1,6 +1,5 @@
-QX模式模块 (纯TUN代理并保持高级功能)
 #!name=QX模式
-#!desc=Enable tun only and force 80 port http proxy
+#!desc=QX模式模块 (纯TUN代理并保持高级功能)Enable tun only and force 80 port http proxy
 
 [General]
 compatibility-mode = 3
