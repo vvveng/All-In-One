@@ -1,6 +1,5 @@
 #!name=Self-Use Rules
 #!desc=自用 Rules
-
 [Rule]
 RULE-SET,LAN,🔘 DIRECT // LAN直连
 DOMAIN-KEYWORD, sub-store,🔘 DIRECT
@@ -70,4 +69,3 @@ DOMAIN, t.net.co, 🔰 Proxy
 DOMAIN, www.cordc.net, 🔰 Proxy
 DOMAIN, sm.ms, 🔰 Proxy
 DOMAIN-SUFFIX,nssurge.com,🔰 Proxy
-DOMAIN, m.baidu.com, 🔰 Proxy
