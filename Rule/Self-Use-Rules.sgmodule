@@ -72,3 +72,5 @@ DOMAIN, sm.ms, 🔰 Proxy
 DOMAIN-SUFFIX,nssurge.com,🔰 Proxy
 DOMAIN, m.baidu.com, 🔰 Proxy
 DOMAIN, m.baidu.com, 🔰 Proxy
+DOMAIN-SUFFIX, , ⛔️ Reject
+DOMAIN, m.baidu.com, ⛔️ Reject
