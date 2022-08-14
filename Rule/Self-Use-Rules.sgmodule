@@ -2,6 +2,7 @@
 #!desc=自用 Rules
 
 [Rule]
+RULE-SET,LAN,🔘 DIRECT // LAN直连
 DOMAIN-KEYWORD, sub-store,🔘 DIRECT
 IP-ASN,132203,🔘 DIRECT,no-resolve // WeChat
 DOMAIN-SUFFIX,bing.com,🔘 DIRECT
