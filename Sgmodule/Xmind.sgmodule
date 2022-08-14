@@ -2,7 +2,7 @@
 #!desc= Xmind破解
 
 [Script]
-Xmind破解 = type=http-request,pattern=https:\/\/www\.xmind\.cn\/\_res\/devices,requires-body=1,script-update-interval=-1,max-size=0,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Xmind.js
+Xmind破解 = type=http-response,pattern=https:\/\/www\.xmind\.cn\/\_res\/devices,requires-body=1,script-update-interval=-1,max-size=0,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Xmind.js
 
 [MITM]
 hostname = %APPEND% www.xmind.cn
