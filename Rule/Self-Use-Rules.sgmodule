@@ -62,6 +62,7 @@ DOMAIN-KEYWORD, iqdb.org, 🔰 Proxy
 DOMAIN, www.safe-in-cloud.com, 🔰 Proxy
 DOMAIN, www.c-cloud.xyz, 🔰 Proxy
 DOMAIN, openwrt.org, 🔰 Proxy
+航航
 DOMAIN, tx.me, 🔰 Proxy
 DOMAIN, telegram-group.org, 🔰 Proxy
 DOMAIN, runestone.app, 🔰 Proxy
@@ -71,6 +72,4 @@ DOMAIN, www.cordc.net, 🔰 Proxy
 DOMAIN, sm.ms, 🔰 Proxy
 DOMAIN-SUFFIX,nssurge.com,🔰 Proxy
 DOMAIN, m.baidu.com, 🔰 Proxy
-, m.baidu.com, ⛔️ Reject
-, m.baidu.com, 🔰 Proxy
-IP-ASN, m.baidu.com, ⛔️ Reject
+
