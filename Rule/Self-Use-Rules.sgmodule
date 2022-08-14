@@ -71,3 +71,5 @@ DOMAIN, www.cordc.net, 🔰 Proxy
 DOMAIN, sm.ms, 🔰 Proxy
 DOMAIN-SUFFIX,nssurge.com,🔰 Proxy
 DOMAIN, m.baidu.com, 🔰 Proxy
+, m.baidu.com, ⛔️ Reject
+, m.baidu.com, 🔰 Proxy
