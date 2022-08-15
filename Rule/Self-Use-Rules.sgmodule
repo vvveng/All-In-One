@@ -78,3 +78,4 @@ chavy.boxjs.js, ⛔️ Reject
 DOMAIN, .www.v2ex.com, 🔰 Proxy
 DOMAIN-SUFFIX, raw.githubusercontent.com, 🔰 Proxy
 DOMAIN, tmp.link, 🔘 DIRECT
+DOMAIN, tmp.link, 🔰 Proxy
