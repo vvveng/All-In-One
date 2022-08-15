@@ -72,3 +72,4 @@ DOMAIN, www.v2ex.com, 🔰 Proxy
 1
 DOMAIN, www.v2ex.com:443, ⛔️ Reject
 DOMAIN, https://testflight.apple.com/join/u6iogfd0, 🔰 Proxy
+DOMAIN, api.thetvdb.com, ⛔️ Reject
