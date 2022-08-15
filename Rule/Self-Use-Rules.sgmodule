@@ -70,7 +70,3 @@ DOMAIN, www.cordc.net, 🔰 Proxy
 DOMAIN-SUFFIX,nssurge.com,🔰 Proxy
 DOMAIN, www.cordc.net, 🔰 Proxy
 DOMAIN-SUFFIX,nssurge.com,🔰 Proxy
-DOMAIN-SUFFIX, baidu.com, ⛔️ Reject
-DOMAIN-SUFFIX, bing.cn, ⛔️ Reject
-DOMAIN, m.baidu.com, 🔰 Proxy
-DOMAIN, Self-Use-Rules.sgmodule, ⛔️ Reject
