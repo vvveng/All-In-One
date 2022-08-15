@@ -75,3 +75,5 @@ DOMAIN, https://testflight.apple.com/join/u6iogfd0, 🔰 Proxy
 DOMAIN, api.thetvdb.com, ⛔️ Reject
 DOMAIN, raw.githubusercontent.com
 chavy.boxjs.js, ⛔️ Reject
+DOMAIN, .www.v2ex.com, 🔰 Proxy
+DOMAIN-SUFFIX, raw.githubusercontent.com, 🔰 Proxy
