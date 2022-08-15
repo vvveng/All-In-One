@@ -1,1 +1,71 @@
-打开规则文件
+#!name=Self-Use Rules
+#!desc=自用 Rules
+[Rule]
+RULE-SET,LAN,🔘 DIRECT // LAN直连
+DOMAIN-KEYWORD, sub-store,🔘 DIRECT
+IP-ASN,132203,🔘 DIRECT,no-resolve // WeChat
+DOMAIN-SUFFIX,bing.com,🔘 DIRECT
+DOMAIN-SUFFIX,notion.so,🔰 Proxy
+DOMAIN, jiali.tcwsq.cn, ⛔️ Reject
+DOMAIN, img.jswhpx.cn, ⛔️ Reject
+DOMAIN, ift.tt, 🔰 Proxy
+DOMAIN, jdsharedresourcescdn.azureedge.net, 🔰 Proxy
+DOMAIN, ghproxy.com, 🔰 Proxy
+DOMAIN-SUFFIX, highwebmedia.com, 🔰 Proxy
+DOMAIN, m.chaturbate.com, 🔰 Proxy
+DOMAIN, api.trakt.tv, 🔰 Proxy
+DOMAIN-SUFFIX, savieo.com, 🔰 Proxy
+DOMAIN, www.fuli6.se, 🔰 Proxy
+DOMAIN-KEYWORD, fuli.sk, 🔰 Proxy
+DOMAIN-KEYWORD, xxxmmm.in, 🔰 Proxy
+DOMAIN-KEYWORD, cordcloud, 🔰 Proxy
+DOMAIN-KEYWORD, ccsub.cc, 🔰 Proxy
+DOMAIN, receiptcheck.quantumult.app, 🔰 Proxy
+DOMAIN, workingcopyapp.com, 🔰 Proxy
+DOMAIN, live.staticflickr.com, 🔰 Proxy
+DOMAIN-SUFFIX, gstatic.com, 🔰 Proxy
+DOMAIN, get.pxhere.com, 🔰 Proxy
+DOMAIN, data.flurry.com, 🔰 Proxy
+DOMAIN-KEYWORD, pixabay.com, 🔰 Proxy
+DOMAIN, outlook.office.com, 🔘 DIRECT
+DOMAIN, outlook-1.cdn.office.net, 🔘 DIRECT
+DOMAIN, self.events.data.microsoft.com, 🔘 DIRECT
+DOMAIN, outlook.office365.com, 🔘 DIRECT
+DOMAIN, api.aliyundrive.com, 🔘 DIRECT
+DOMAIN, directory.getdrafts.com, 🔘 DIRECT
+DOMAIN, szextshort.weixin.qq.com, 🔘 DIRECT
+DOMAIN, szminorshort.weixin.qq.com, 🔘 DIRECT
+DOMAIN, dl.airtable.com, 🔰 Proxy
+DOMAIN, api.airport.community, 🔰 Proxy
+DOMAIN, bstbda.firebaseio.com, 🔰 Proxy
+DOMAIN-KEYWORD, googleads, ⛔️ Reject
+DOMAIN, s5-dh-dns.global-idc.net, ⛔️ Reject
+DOMAIN, i.ibb.co, 🔰 Proxy
+DOMAIN, cdn.jsdelivr.net, 🔰 Proxy
+DOMAIN-KEYWORD, airport-app-api-production.up.railway.app, 🔰 Proxy
+DOMAIN, cm-cn-central-00001.albatross.10086.cn, 🔘 DIRECT
+DOMAIN, avatars.mds.yandex.net, 🔰 Proxy
+DOMAIN-SUFFIX, tvtime.com, 🔰 Proxy
+DOMAIN, launches.appsflyer.com, 🔰 Proxy
+DOMAIN-SUFFIX, apptimize.com, 🔰 Proxy
+DOMAIN-SUFFIX, braze.com, 🔰 Proxy
+DOMAIN-SUFFIX, tozelabs.com, 🔰 Proxy
+DOMAIN-SUFFIX, deepl.com, 🔰 Proxy
+DOMAIN, ddl.ink, 🔰 Proxy
+DOMAIN, nature-photos.b-cdn.net, 🔰 Proxy
+DOMAIN, www.605xin.xyz, ⛔️ Reject
+DOMAIN, www.jqueryweb.com, ⛔️ Reject
+DOMAIN, www.jusebao.biz, ⛔️ Reject
+DOMAIN, 94122.info, ⛔️ Reject
+DOMAIN-KEYWORD, iqdb.org, 🔰 Proxy
+DOMAIN, www.safe-in-cloud.com, 🔰 Proxy
+DOMAIN, www.c-cloud.xyz, 🔰 Proxy
+DOMAIN, openwrt.org, 🔰 Proxy
+DOMAIN, tx.me, 🔰 Proxy
+DOMAIN, telegram-group.org, 🔰 Proxy
+DOMAIN, runestone.app, 🔰 Proxy
+DOMAIN, storage.openwrt.cc, 🔰 Proxy
+DOMAIN, t.net.co, 🔰 Proxy
+DOMAIN, www.cordc.net, 🔰 Proxy
+DOMAIN-SUFFIX,nssurge.com,🔰 Proxy
+DOMAIN, www.v2ex.com, 🔰 Proxy
