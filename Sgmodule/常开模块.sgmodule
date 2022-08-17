@@ -16,6 +16,6 @@ Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,script-path=https:/
 配置重载 = script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/Profile-Reload.js,type=generic
 微信去除公众号文章底部广告 = type=http-request,pattern=^https://mp\.weixin\.qq\.com/mp/getappmsgad,timeout=30,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 Rewrite: BoxJs = type=http-request,pattern=https?:\/\/boxjs\.(com|net),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120
-[Panel]
 
+[Panel]
 配置重载 = title=配置重载,content=配置重载,style=info,script-name=配置重载,update-interval=-1
