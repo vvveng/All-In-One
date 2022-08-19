@@ -1,12 +1,11 @@
 #!name= 常开模块 ☑️
 #!desc= wwweng自用常开模块
 
-
 [General]
 force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net
 
 [MITM]
-hostname = %APPEND% duckduckgo.com, *.google.cn, *.google.com.hk, sub.store, boxer.baidu.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, -*.weibo.com, mp.weixin.qq.com, security.wechat.com, weixin110.qq.com, testflight.apple.com, pan.baidu.com, m.douban.com,wallpaper.soutushenqi.com
+hostname = %APPEND% duckduckgo.com, *.google.cn, *.google.com.hk, sub.store, boxer.baidu.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, -*.weibo.com, mp.weixin.qq.com, security.wechat.com, weixin110.qq.com, testflight.apple.com, pan.baidu.com, m.douban.com
 
 [Script]
 TF_Download = type=http-request,pattern=^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$,requires-body=1,script-update-interval=-1,max-size=0,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/TF_Download.js
