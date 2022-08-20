@@ -1,0 +1,101 @@
+
+
+
+# > 饿了么
+^https?:\/\/elemecdn.com\/.+\/sitemap url - reject
+^https?:\/\/fuss10.elemecdn.com\/.+\/w\/640\/h\/\d{3,4} url - reject
+^https?:\/\/fuss10.elemecdn.com\/.+\/w\/750\/h\/\d{3,4} url - reject
+^https?:\/\/fuss10.elemecdn.com\/.+.mp4 url - reject
+^https?:\/\/www1.elecfans.com\/www\/delivery url - reject
+# > 丰巢
+^https?:\/\/consumer\.fcbox\.com\/v\d\/ad url - reject
+
+# > 爱奇艺
+^https?:\/\/.+\/cdn\/qiyiapp\/\d{8}\/.+&dis_dz= url reject-img
+^https?:\/\/.+\/cdn\/qiyiapp\/\d{8}\/.+&z=\w url reject-img
+^https?:\/\/.+\/videos\/other url - reject
+^https?:\/\/iface2\.iqiyi\.com\/fusion\/3\.0\/fusion_switch url reject-img
+# ======= B ======= #
+# > 百度地图开屏广告
+^https:\/\/dss0\.bdstatic\.com\/.+/tam-ogel\/.+\.jpg url - reject
+
+# > 叮咚买菜
+^https?:\/\/maicai\.api\.ddxq\.mobi\/advert url - reject
+# > 嘀嗒出行
+^https?:\/\/capis(-?\w*)?\.didapinche\.com\/ad\/cx\/startup\? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
+# > 豆瓣
+^https://api.douban.com\b.*\/common_ads\?.* url - reject
+# > 滴滴出行（推荐英文版）@ddgksf2013
+https?://res\.xiaojukeji\.com\/resapi\/activity\/mget url reject-dict
+
+# > 得物@kyle
+^https:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement url - reject
+
+# > 高德
+^https?:\/\/m5.amap.com\/ws\/valueadded url - reject
+
+# > 虎扑@ddgksf2013
+^https?:\/\/i\d\.hoopchina\.com\.cn/blogfile\//d+\//d+\/BbsImg\.(?<=(big.(png|jpg)))$ url reject-img
+^https?:\/\/games\.mobileapi\.hupu\.com\/.+\/(search|interfaceAdMonitor|status|hupuBbsPm)/(hotkey|init|hupuBbsPm)\. url reject-img
+^https?:\/\/games\.mobileapi\.hupu\.com\/interfaceAdMonitor url reject-img
+^https?:\/\/goblin\.hupu\.com\/.+\/interfaceAd\/getOther url - reject
+^https?:\/\/i1\.hoopchina\.com\.cn\/blogfile\/.+_\d{3}x\d{4} url reject-img
+
+# > 京东开屏广告（此条规则会影响京东比价显示，使其失效）
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start url reject-dict
+^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=queryMaterialAdverts url - reject
+^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx url - reject
+
+
+# > 交管12123(需卸载重装)@kyle
+^https:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery url - reject
+# > 拦截100@ddgksf2013
+https://tagit.hyhuo.com/recover/list url - reject
+# > 美团应用
+^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$ url - reject
+^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) url - reject
+^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg url - reject
+^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp url - reject
+# > 美团外卖开屏广告
+^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo\? url - reject
+^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/startpicture url - reject
+^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\?ad url - reject
+
+# > spotify pro@app2smile
+^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+# > spotify@ddgksf2013
+^https?://spclient.wg.spotify.com/ad-logic/* url reject-img
+^https?://spclient.wg.spotify.com/ads/* url reject-img
+^https?://spclient.wg.spotify.com/.+ad_slot url reject-img
+^https?://spclient.wg.spotify.com/.+banners url reject-img
+^https?://spclient.wg.spotify.com/.+canvases url reject-img
+^https?://spclient.wg.spotify.com/.+cards url reject-img
+^https?://spclient.wg.spotify.com/.+crashlytics url reject-img
+^https?://spclient.wg.spotify.com/.+doubleclick.net url reject-img
+^https?://spclient.wg.spotify.com/.+enabled-tracks url reject-img
+^https?://spclient.wg.spotify.com/.+promoted_offer url reject-img
+^https?:\/\/api\d?\.musical\.ly\/api\/ad url reject-img
+
+# > 网易云音乐
+^https?:\/\/interface(\d)?.music.163.com\/eapi\/ad url - reject
+# > 网易邮箱开屏广告
+^https?:\/\/appconf\.mail\.163\.com\/mmad\/get\.do url - reject
+^https?:\/\/client\.mail\.163.com\/apptrack\/confinfo\/(searchMultiAds.do|showAds.do) url - reject
+
+# > 微信110@zZPiglet
+^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
+# > 微信公众号图文
+^(http|https):\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad url response-body "advertisement_num":\d,"advertisement_info":\[.+\], response-body "advertisement_num":0,"advertisement_info":[],
+# > 威锋
+^https:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList) url - reject
+
+# > Youtube@DivineEngine
+(^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) url 302 $1$2$3
+^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad url - reject
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break url - reject
+^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url - reject
+^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url - reject
+^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext url - reject
+
+# > 知乎网页版强制登陆弹窗@HotKids
+^https?:\/\/static\.zhihu\.com\/[^\/]+\/(main|column)\.signflow\.[^.]+.js url - reject
