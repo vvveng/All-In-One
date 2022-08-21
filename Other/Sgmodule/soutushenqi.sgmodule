@@ -1,0 +1,8 @@
+#!name= 搜图神器破解
+#!desc= 搜图神器破解
+
+[MITM]
+hostname = %APPEND% wallpaper.soutushenqi.com
+
+[Script]
+搜图神器 = type=http-response,pattern=^https?:\/\/wallpaper\.soutushenqi\.com\/api\/v\d\/account\/(token|login),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/soutushenqi.js,script-update-interval=0
