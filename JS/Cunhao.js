@@ -1,4 +1,5 @@
 let obj = JSON.parse($response.body)
+obj["ret"] = 1
 let pro= obj["data"];
 pro["isGuest"] = "false";
 pro["id"] = 666;
