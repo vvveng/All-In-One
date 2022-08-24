@@ -1,0 +1,8 @@
+#!name= 存好破解
+#!desc= 存好破解
+
+[Script]
+存好破解 = type=http-response,pattern=^https:\/\/vvebo.\vip\/v1\/user\/register$,requires-body=1,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Cunhao.js,script-update-interval=0,max-size=0
+
+[MITM]
+hostname = %APPEND% vvebo.vip
