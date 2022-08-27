@@ -2,7 +2,6 @@
 #!desc=自用 Rules
 [Rule]
 RULE-SET,LAN,🔘 𝘿𝙄𝙍𝙀𝘾𝙏 // LAN直连
-DOMAIN-KEYWORD, sub-store,🔘 𝘿𝙄𝙍𝙀𝘾𝙏
 IP-ASN,132203,🔘 𝘿𝙄𝙍𝙀𝘾𝙏,no-resolve // WeChat
 DOMAIN-SUFFIX,bing.com,🔘 𝘿𝙄𝙍𝙀𝘾𝙏
 DOMAIN-SUFFIX,notion.so,🔰 𝙋𝙧𝙤𝙭𝙮
@@ -73,3 +72,4 @@ DOMAIN-SUFFIX,nssurge.com,🔰 𝙋𝙧𝙤𝙭𝙮
 DOMAIN-SUFFIX, duckduckgo.com, 🔰 𝙋𝙧𝙤𝙭𝙮
 DOMAIN, erro.life, 🔰 𝙋𝙧𝙤𝙭𝙮
 DOMAIN-KEYWORD, medium.com, 🔰 𝙋𝙧𝙤𝙭𝙮
+DOMAIN, sm.ms, 🔰 𝙋𝙧𝙤𝙭𝙮
