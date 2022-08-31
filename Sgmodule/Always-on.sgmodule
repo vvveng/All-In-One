@@ -14,14 +14,14 @@ Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,script-path=https:/
 Sub-Store自动同步 = type=cron,cronexp=0 21 * * *,wake-system=1,timeout=120,script-path= https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js
 百度搜索防跳转 = type=http-response,pattern=^https?\:\/\/boxer\.baidu\.com\/scheme,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/baidu-no-redirect.js,requires-body=0,script-update-interval=0
 解除微信链接限制 = type=http-response,pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
-配置重载 = script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/Profile-Reload.js,type=generic
+# 功能展示
+function = type=generic, script-path=https://raw.githubusercontent.com/smartmimi/conf/master/surge/functionstatus.js
 微信去除公众号文章底部广告 = type=http-request,pattern=^https://mp\.weixin\.qq\.com/mp/getappmsgad,timeout=30,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 Rewrite: BoxJs = type=http-request,pattern=https?:\/\/boxjs\.(com|net),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120
 机场签到 = type=cron,cronexp= 0 20 * * *,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js,script-update-interval=0
 FlushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Panel/Flush-DNS/Flush-DNS/Flush-DNS.js,argument=title=DNS FLush&icon=gear=#f6c970&server=false
-SurgePro_ReloadProfile = type=generic,timeout=10,script-path= https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Panel/Surge-Pro/PRO/Surge-Pro.js ,argument=icon=paperplane.circle&color=#f6c970
 
 [Panel]
-配置重载 = title=配置重载,content=配置重载,style=info,script-name=配置重载,update-interval=-1
+# 功能展示
+function = script-name=function, title="状态显示", content="请刷新", update-interval=30
 FlushDNS = script-name=FlushDNS,update-interval=600
-SurgePro_ReloadProfile = script-name=SurgePro_ReloadProfile,update-interval=1
