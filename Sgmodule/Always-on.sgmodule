@@ -8,6 +8,7 @@ force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net
 hostname = %APPEND% duckduckgo.com, *.google.cn, *.google.com.hk, sub.store, boxer.baidu.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, -*.weibo.com, mp.weixin.qq.com, security.wechat.com, weixin110.qq.com, testflight.apple.com, pan.baidu.com, m.douban.com
 
 [Script]
+墨迹天气签到 = type=cron,script-path=https://github.com/vvveng/All-In-One/raw/main/JS/mojiqiandao.js,cronexp=0 20 * * *,script-update-interval=0
 TF_Download = type=http-request,pattern=^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$,requires-body=1,script-update-interval=-1,max-size=0,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/TF_Download.js
 吾爱签到 = type=cron,cronexp=0 12 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,script-update-interval=0
 Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js,requires-body=1,timeout=120,max-size=131072,script-update-interval=0
@@ -20,7 +21,6 @@ function = type=generic, script-path=https://raw.githubusercontent.com/smartmimi
 Rewrite: BoxJs = type=http-request,pattern=https?:\/\/boxjs\.(com|net),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120
 机场签到 = type=cron,cronexp= 0 20 * * *,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js,script-update-interval=0
 FlushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Panel/Flush-DNS/Flush-DNS/Flush-DNS.js,argument=title=DNS FLush&icon=gear=#f6c970&server=false
-
 [Panel]
 # 功能展示
 function = script-name=function, title="状态显示", content="请刷新", update-interval=30
