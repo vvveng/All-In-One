@@ -8,7 +8,7 @@ force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net
 hostname = %APPEND% duckduckgo.com, *.google.cn, *.google.com.hk, sub.store, boxer.baidu.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, -*.weibo.com, mp.weixin.qq.com, security.wechat.com, weixin110.qq.com, testflight.apple.com, pan.baidu.com, m.douban.com
 
 [Script]
-墨迹天气签到 = type=cron,script-path=https://github.com/vvveng/All-In-One/raw/main/JS/mojiqiandao.js,cronexp=0 20 * * *,script-update-interval=0
+捷径社区签到 = type=cron,script-path=https://github.com/vvveng/All-In-One/raw/main/JS/mojiqiandao.js,cronexp=0 20 * * *,script-update-interval=0
 TF_Download = type=http-request,pattern=^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$,requires-body=1,script-update-interval=-1,max-size=0,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/TF_Download.js
 吾爱签到 = type=cron,cronexp=0 20 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,script-update-interval=0
 Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js,requires-body=1,timeout=120,max-size=131072,script-update-interval=0

@@ -1,8 +1,14 @@
 let capture = {
-	url: "https://rtn.api.moji.com/ucrating/sign_in/do?user_id=LCjMOLvINIunWftgJGHl1qgj5sZ84vYfceIVOYh1w4g%3D&sns_id=4YoZYX2%2Fs6FqwzTxc907aw%3D%3D&client_id=11&app_version=5009030802&pid=5009030802&clientId=11&current_city=5274",
+	url: "https://sharecuts.cn/api/checkin",
+	headers: {
+		"Cookie": "auth.currentUserId=jL1z3BN03v; auth.currentUserToken=16fee0b10e49ab5a66f5ddda706024e49951f82b59832c73e6e68d776dbefb2e",
+		"X-User": "jL1z3BN03v",
+		"X-Token": "16fee0b10e49ab5a66f5ddda706024e49951f82b59832c73e6e68d776dbefb2e",
+		"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148/SharecutsIOS",
+	},
 };
-$httpClient.get(capture, (error, response, data) => {
+$httpClient.post(capture, (data) => {
 	let detail ="签到成功";
-	$notification.post("墨迹天气", "", detail);
+	$notification.post("捷径社区", "", detail);
 	$done({ detail });
 });
