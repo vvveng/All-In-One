@@ -3,6 +3,6 @@ let moji = {
 };
 $httpClient.get(moji, (data) => {
 	let detail ="签到成功";
-	$notification.get("墨迹天气", "", detail);
+	$notification.post("墨迹天气", "", detail);
 	$done({ detail });
 });
