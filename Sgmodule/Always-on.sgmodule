@@ -22,7 +22,8 @@ FlushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com
 捷径社区签到 = type=cron,script-path=https://github.com/vvveng/All-In-One/raw/main/JS/jiejingqiandao.js,cronexp=0 0 20 * * *,script-update-interval=0
 吾爱签到 = type=cron,cronexp=3 0 20 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,script-update-interval=0
 爱奇艺签到 = type=cron,cronexp=6 0 20 * * *,timeout=120,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
-机场签到 = type=cron,cronexp=9 0 20 * * *,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js,script-update-interval=0
+墨迹天气签到 = type=cron,cronexp=9 0 20 * * *,timeout=120,script-path=https://github.com/vvveng/All-In-One/raw/main/JS/mojiqiandao.js
+机场签到 = type=cron,cronexp=12 0 20 * * *,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js,script-update-interval=0
 
 [Panel]
 # 功能展示
