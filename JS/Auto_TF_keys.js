@@ -1,4 +1,4 @@
-$persistentStore.write(null, 'cai _request_id')
+$persistentStore.write(null, 'cai_request_id')
 let url = $request.url
 let key = url.replace(/(.*accounts\/)(.*)(\/apps)/, '$2')
 let session_id = $request.headers['cai_x-session-id']
