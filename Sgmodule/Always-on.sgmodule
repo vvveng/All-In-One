@@ -16,7 +16,6 @@ Sub-Store自动同步 = type=cron,cronexp=0 21 * * *,wake-system=1,timeout=120,s
 解除微信链接限制 = type=http-response,pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
 # 功能展示
 function = type=generic, script-path=https://raw.githubusercontent.com/smartmimi/conf/master/surge/functionstatus.js
-微信去除公众号文章底部广告 = type=http-request,pattern=^https://mp\.weixin\.qq\.com/mp/getappmsgad,timeout=30,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
 Rewrite: BoxJs = type=http-request,pattern=https?:\/\/boxjs\.(com|net),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120
 FlushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Panel/Flush-DNS/Flush-DNS/Flush-DNS.js,argument=title=DNS FLush&icon=gear=#f6c970&server=false
 捷径社区签到 = type=cron,script-path=https://github.com/vvveng/All-In-One/raw/main/JS/jiejingqiandao.js,cronexp=0 0 20 * * *,script-update-interval=0
