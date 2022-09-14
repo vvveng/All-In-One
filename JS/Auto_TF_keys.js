@@ -8,7 +8,7 @@ $persistentStore.write(key, 'A_TF_key')
 $persistentStore.write(session_id, 'A_TF_session_id')
 $persistentStore.write(session_digest, 'A_TF_session_digest')
 $persistentStore.write(request_id, 'A_TF_request_id')
-if ($persistentStore.read('Cai_request_id') !== null) {
+if ($persistentStore.read('A_TF_request_id') !== null) {
   $notification.post('请关闭本脚本', '信息获取成功','')
 } else {
   $notification.post('信息获取失败','请打开MITM H2开关并添加testflight.apple.com','')
