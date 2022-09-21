@@ -10,3 +10,5 @@ hostname = %APPEND% wallpaper.soutushenqi.com,www.xmind.cn,api.craft.do
 Xmind = type=http-response,pattern=^https:\/\/www\.xmind\.cn\/\_res\/devices$,script-path=https://raw.githubusercontent.com/sunlc123/Quanx/main/js/XMind.js, requires-body=1,script-update-interval=-1,max-size=0
 
 Craft = type=http-response,pattern=^https?:\/\/api\.craft\.do\/(auth/v2/profile|subscription/receipt).*$,script-path=https://raw.githubusercontent.com/sunlc123/Quanx/main/js/craft.js, requires-body=1,script-update-interval=-1,max-size=0
+
+PicsArt = type=http-response,pattern=^https:\/\/api\.meiease\.cn\/shop\/subscription\/validate$,script-path=https://raw.githubusercontent.com/sunlc123/Quanx/main/js/picsart.js, requires-body=1,script-update-interval=-1,max-size=0
