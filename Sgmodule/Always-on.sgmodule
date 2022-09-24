@@ -9,20 +9,20 @@ hostname = %APPEND% duckduckgo.com, *.google.cn, *.google.com.hk, sub.store, box
 
 [Script]
 
-TF_Download = type=http-request,pattern=^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$,requires-body=1,script-update-interval=-1,max-size=0,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/TF_Download.js
-Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js,requires-body=1,timeout=120,max-size=131072,script-update-interval=0
-Sub-Store自动同步 = type=cron,cronexp=0 21 * * *,wake-system=1,timeout=120,script-path= https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js
-百度搜索防跳转 = type=http-response,pattern=^https?\:\/\/boxer\.baidu\.com\/scheme,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/baidu-no-redirect.js,requires-body=0,script-update-interval=0
-解除微信链接限制 = type=http-response,pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
+TF_Download = type=http-request,pattern=^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$,requires-body=1,script-update-interval=-1,max-size=0,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/TF_Download.js?raw=true
+Sub-Store = type=http-request,pattern=^https?:\/\/sub\.store,script-path=https://raw.githubusercontent.com/Peng-YM/Sub-Store/master/backend/sub-store.min.js?raw=true,requires-body=1,timeout=120,max-size=131072,script-update-interval=0
+Sub-Store自动同步 = type=cron,cronexp=0 21 * * *,wake-system=1,timeout=120,script-path= https://github.com/sub-store-org/Sub-Store/releases/latest/download/cron-sync-artifacts.min.js?raw=true
+百度搜索防跳转 = type=http-response,pattern=^https?\:\/\/boxer\.baidu\.com\/scheme,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/baidu-no-redirect.js?raw=true,requires-body=0,script-update-interval=0
+解除微信链接限制 = type=http-response,pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js?raw=true
 # 功能展示
-function = type=generic, script-path=https://raw.githubusercontent.com/smartmimi/conf/master/surge/functionstatus.js
-Rewrite: BoxJs = type=http-request,pattern=https?:\/\/boxjs\.(com|net),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js, requires-body=true, timeout=120
-FlushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Panel/Flush-DNS/Flush-DNS/Flush-DNS.js,argument=title=DNS FLush&icon=gear=#f6c970&server=false
-捷径社区签到 = type=cron,script-path=https://github.com/vvveng/All-In-One/raw/main/JS/jiejingqiandao.js,cronexp=0 30 20 * * *,script-update-interval=0
-吾爱签到 = type=cron,cronexp=3 30 20 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js,script-update-interval=0
-爱奇艺签到 = type=cron,cronexp=6 30 20 * * *,timeout=120,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
-墨迹天气签到 = type=cron,cronexp=9 30 20 * * *,timeout=120,script-path=https://github.com/vvveng/All-In-One/raw/main/JS/mojiqiandao.js
-机场签到 = type=cron,cronexp=12 30 20 * * *,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js,script-update-interval=0
+function = type=generic, script-path=https://raw.githubusercontent.com/smartmimi/conf/master/surge/functionstatus.js?raw=true
+Rewrite: BoxJs = type=http-request,pattern=https?:\/\/boxjs\.(com|net),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js?raw=true, requires-body=true, timeout=120
+FlushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Panel/Flush-DNS/Flush-DNS/Flush-DNS.js?raw=true,argument=title=DNS FLush&icon=gear=#f6c970&server=false
+捷径社区签到 = type=cron,script-path=https://github.com/vvveng/All-In-One/raw/main/JS/jiejingqiandao.js?raw=true,cronexp=0 30 20 * * *,script-update-interval=0
+吾爱签到 = type=cron,cronexp=3 30 20 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js?raw=true,script-update-interval=0
+爱奇艺签到 = type=cron,cronexp=6 30 20 * * *,timeout=120,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js?raw=true
+墨迹天气签到 = type=cron,cronexp=9 30 20 * * *,timeout=120,script-path=https://github.com/vvveng/All-In-One/raw/main/JS/mojiqiandao.js?raw=true
+机场签到 = type=cron,cronexp=12 30 20 * * *,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js?raw=true,script-update-interval=0
 
 [Panel]
 # 功能展示
