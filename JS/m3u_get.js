@@ -1,7 +1,11 @@
-let url = $request.url
-if ('url') !== null) {
-  $notification.post('请关闭本脚本', '信息获取成功','')
-} else {
-  $notification.post('信息获取失败','','')
+let url = $request.url;
+let tongzhi = {
+  url: "https://api.day.app/push",
+  body: {
+	title: "已抓取，请立即下拉后点复制",
+	device_key: "mQmpv6johUdatwgYhXvsAL",
+	body: url,
 }
-$done({})
+};
+$httpClient.post(tongzhi)
+	$done({ tongzhi });
