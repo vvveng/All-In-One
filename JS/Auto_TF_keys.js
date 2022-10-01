@@ -1,4 +1,3 @@
-$persistentStore.write(null, 'A_TF_request_id')
 let url = $request.url
 let key = url.replace(/(.*accounts\/)(.*)(\/apps)/, '$2')
 let session_id = $request.headers['x-session-id']
