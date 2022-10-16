@@ -17,7 +17,6 @@ Sub-Store自动同步 = type=cron,cronexp=0 21 * * *,wake-system=1,timeout=120,s
 # 功能展示
 function = type=generic, script-path=https://raw.githubusercontent.com/smartmimi/conf/master/surge/functionstatus.js?raw=true
 Rewrite: BoxJs = type=http-request,pattern=https?:\/\/boxjs\.(com|net),script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js?raw=true, requires-body=true, timeout=120
-FlushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Panel/Flush-DNS/Flush-DNS/Flush-DNS.js?raw=true,argument=title=DNS FLush&icon=gear=#f6c970&server=false
 捷径社区签到 = type=cron,script-path=https://github.com/vvveng/All-In-One/raw/main/JS/jiejingqiandao.js?raw=true,cronexp=0 10 20 * * *,script-update-interval=0
 吾爱签到 = type=cron,cronexp=3 10 20 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js?raw=true,script-update-interval=0
 爱奇艺签到 = type=cron,cronexp=6 10 20 * * *,timeout=120,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js?raw=true
@@ -27,4 +26,3 @@ FlushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com
 [Panel]
 # 功能展示
 function = script-name=function, title="状态显示", content="请刷新", update-interval=30
-FlushDNS = script-name=FlushDNS,update-interval=600
