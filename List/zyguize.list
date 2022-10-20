@@ -29,8 +29,6 @@ HOST, self.events.data.microsoft.com, ✅自用直连
 HOST, outlook.office365.com, ✅自用直连
 HOST, api.aliyundrive.com, ✅自用直连
 HOST, directory.getdrafts.com, ✅自用直连
-HOST, szextshort.weixin.qq.com, ✅自用直连
-HOST, szminorshort.weixin.qq.com, ✅自用直连
 HOST, dl.airtable.com, ♻️自用节选
 HOST, api.airport.community, ♻️自用节选
 HOST, bstbda.firebaseio.com, ♻️自用节选
@@ -64,4 +62,3 @@ HOST, storage.openwrt.cc, ♻️自用节选
 HOST, t.net.co, ♻️自用节选
 HOST, www.cordc.net, ♻️自用节选
 HOST, sm.ms, ♻️自用节选
-主机, 18.38, ♻️自用节选
