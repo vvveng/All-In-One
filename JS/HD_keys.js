@@ -1,5 +1,4 @@
-let url = $request.url
-let authcode = url.authcode
+let authcode = $request.body['authcode']
 let tongzhi = {
   url: "https://api.day.app/push",
   body: {
