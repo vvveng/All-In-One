@@ -1,0 +1,5 @@
+#!name= WiFi-Open
+#!desc= 开启Wi-Fi访问
+
+[General]
+allow-wifi-access = true
