@@ -3,3 +3,4 @@
 
 [General]
 allow-wifi-access = true
+allow-hotspot-access = true
