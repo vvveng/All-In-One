@@ -1,0 +1,6 @@
+#!name= Proxy-Share
+#!desc= 开启Wi-Fi和热点分享访问，两设备在同一wifi，需网络的手机在wifi里面选择前置代理手动，填入本机ip地址+端口号(默认6152、6153）
+
+[General]
+allow-wifi-access = true
+allow-hotspot-access = true
