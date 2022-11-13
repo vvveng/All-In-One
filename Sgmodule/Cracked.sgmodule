@@ -7,8 +7,8 @@ hostname = %APPEND% wallpaper.soutushenqi.com,www.xmind.cn,api.craft.do,api.meie
 [Script]
 搜图神器 = type=http-response,pattern=^https?:\/\/wallpaper\.soutushenqi\.com\/api\/v\d\/account\/(token|login),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/soutushenqi.js,script-update-interval=0
 
-Xmind = type=http-response,pattern=^https:\/\/www\.xmind\.cn\/\_res\/devices$,script-path=https://raw.githubusercontent.com/sunlc123/Quanx/main/js/XMind.js, requires-body=1,script-update-interval=-1,max-size=0
+Xmind = type=http-response,pattern=^https:\/\/www\.xmind\.cn\/\_res\/devices$,script-path=https://raw.githubusercontent.com/vvveng/Quanx/main/js/XMind.js, requires-body=1,script-update-interval=-1,max-size=0
 
-Craft = type=http-response,pattern=^https?:\/\/api\.craft\.do\/(auth/v2/profile|subscription/receipt).*$,script-path=https://raw.githubusercontent.com/sunlc123/Quanx/main/js/craft.js, requires-body=1,script-update-interval=-1,max-size=0
+Craft = type=http-response,pattern=^https?:\/\/api\.craft\.do\/(auth/v2/profile|subscription/receipt).*$,script-path=https://raw.githubusercontent.com/vvveng/Quanx/main/js/craft.js, requires-body=1,script-update-interval=-1,max-size=0
 
-PicsArt = type=http-response,pattern=^https:\/\/api\.meiease\.cn\/shop\/subscription\/validate$,script-path=https://raw.githubusercontent.com/sunlc123/Quanx/main/js/picsart.js, requires-body=1,script-update-interval=-1,max-size=0
+PicsArt = type=http-response,pattern=^https:\/\/api\.meiease\.cn\/shop\/subscription\/validate$,script-path=https://raw.githubusercontent.com/vvveng/Quanx/main/js/picsart.js, requires-body=1,script-update-interval=-1,max-size=0
