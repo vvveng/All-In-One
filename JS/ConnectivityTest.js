@@ -20,7 +20,7 @@ Apple:'https://itunes.apple.com',
 }
 
 !(async () => {
-await Promise.all([http('Baidu'),http('Google'),http('Youtube'),http('Github'),http('TF'),http('Apple')]).then((x)=>{
+await Promise.all([http('Baidu'),http('Google'),http('Youtube'),http('Github'),http('Flight'),http('Apple')]).then((x)=>{
 	$done({
     title: '网络延迟',
     content: x.join('\n'),
