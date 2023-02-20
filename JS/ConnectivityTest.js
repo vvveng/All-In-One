@@ -11,16 +11,16 @@ Surge:
 
  */
 let $ = {
-Baidu:'https://www.baidu.com',
-Google:'https://www.google.com/generate_204',
-Youtube:'https://www.youtube.com/',
-Github:'https://www.github.com',
-TestFlight:'https://testflight.apple.com',
-Apple:'https://itunes.apple.com'
+百度:'https://www.baidu.com',
+谷歌:'https://www.google.com/generate_204',
+油管:'https://www.youtube.com/',
+Git:'https://www.github.com',
+内测:'https://testflight.apple.com',
+商店:'https://itunes.apple.com'
 }
 
 !(async () => {
-await Promise.all([http('Baidu'),http('Google'),http('Youtube'),http('Github'),http('Apple'),http('TestFlight')]).then((x)=>{
+await Promise.all([http('百度'),http('谷歌'),http('油管'),http('Git'),http('商店'),http('内测')]).then((x)=>{
 	$done({
     title: '网络延迟',
     content: x.join('\n'),
@@ -35,8 +35,8 @@ function http(req) {
 			let time = Date.now();
         $httpClient.post($[req], (err, resp, data) => {
             r(req +
-		'\xa0\xa0\t: ' +
-						(Date.now() - time)+' ms');
+										'\xa0\xa0\xa0\t: ' +
+										(Date.now() - time)+' ms');
         });
     });
 }
