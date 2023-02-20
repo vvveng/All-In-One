@@ -14,7 +14,9 @@ let $ = {
 Baidu:'https://www.baidu.com',
 Google:'https://www.google.com/generate_204',
 Youtube:'https://www.youtube.com/',
-Github:'https://www.github.com'
+Github:'https://www.github.com',
+TestFlight:'https://testflight.apple.com',
+Apple:'https://itunes.apple.com',
 }
 
 !(async () => {
