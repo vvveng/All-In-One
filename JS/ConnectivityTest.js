@@ -20,7 +20,7 @@ GIT:'https://www.github.com',
 }
 
 !(async () => {
-await Promise.all([http('百度'),http('谷歌'),http('油管'),http('Git'),http('商店'),http('内测')]).then((x)=>{
+await Promise.all([http('百度'),http('谷歌'),http('油管'),http('GIT'),http('商店'),http('内测')]).then((x)=>{
 	$done({
     title: '网络延迟',
     content: x.join('\n'),
