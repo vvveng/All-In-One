@@ -14,7 +14,7 @@ let $ = {
 百度:'https://www.baidu.com',
 谷歌:'https://www.google.com/generate_204',
 油管:'https://www.youtube.com/',
-Git:'https://www.github.com',
+GIT:'https://www.github.com',
 内测:'https://testflight.apple.com',
 商店:'https://itunes.apple.com'
 }
