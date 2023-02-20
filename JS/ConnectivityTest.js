@@ -15,12 +15,12 @@ Baidu:'https://www.baidu.com',
 Google:'https://www.google.com/generate_204',
 Youtube:'https://www.youtube.com/',
 Github:'https://www.github.com',
-Flight:'https://testflight.apple.com',
+Flight   :'https://testflight.apple.com',
 Apple:'https://itunes.apple.com'
 }
 
 !(async () => {
-await Promise.all([http('Baidu'),http('Google'),http('Youtube'),http('Github'),http('Flight'),http('Apple')]).then((x)=>{
+await Promise.all([http('Baidu'),http('Google'),http('Youtube'),http('Github'),http('Flight   '),http('Apple')]).then((x)=>{
 	$done({
     title: '网络延迟',
     content: x.join('\n'),
