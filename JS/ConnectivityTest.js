@@ -21,7 +21,7 @@ GPT:'https://api.openai.com'
 }
 
 !(async () => {
-await Promise.all([http('百度'),http('谷歌'),http('油管'),http('商店'),http('内测'),http('GIT')],http('GPT')).then((x)=>{
+await Promise.all([http('百度'),http('谷歌'),http('油管'),http('商店'),http('内测'),http('GIT'),http('GPT')]).then((x)=>{
 	$done({
     title: '网络延迟',
     content: x.join('\n'),
