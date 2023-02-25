@@ -14,13 +14,14 @@ let $ = {
 百度:'https://www.baidu.com',
 谷歌:'https://www.google.com/generate_204',
 油管:'https://www.youtube.com/',
-GIT:'https://www.github.com',
 内测:'https://testflight.apple.com',
-商店:'https://itunes.apple.com'
+商店:'https://itunes.apple.com',
+GIT:'https://www.github.com',
+GPT:'https://api.openai.com'
 }
 
 !(async () => {
-await Promise.all([http('百度'),http('谷歌'),http('油管'),http('GIT'),http('商店'),http('内测')]).then((x)=>{
+await Promise.all([http('百度'),http('谷歌'),http('油管'),http('商店'),http('内测'),http('GIT')],http('GPT')).then((x)=>{
 	$done({
     title: '网络延迟',
     content: x.join('\n'),
