@@ -2,3 +2,6 @@
 DOMAIN,api.openai.com
 DOMAIN,chat.openai.com
 DOMAIN-SUFFIX,openai.com
+# 调查
+DOMAIN-SUFFIX,hsforms.com
+DOMAIN-KEYWORD,forms.net
