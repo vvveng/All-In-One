@@ -1,5 +1,8 @@
-# >Emby
-http://df.poloemby.xyz
+# >Emb
+# 参考链接:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Emby/Emby.list
+
+DOMAIN,df.poloemby.xyz
+DOMAIN,emby.enjoyit.eu.org
 DOMAIN-SUFFIX,agahk1.jmsooo.com
 DOMAIN-SUFFIX,agajp1.jmsooo.com
 DOMAIN-SUFFIX,agasg1.jmsooo.com
@@ -7,6 +10,7 @@ DOMAIN-SUFFIX,aws.jmsooo.com
 DOMAIN-SUFFIX,cf1.jmsooo.com
 DOMAIN-SUFFIX,cristiamo.xyz
 DOMAIN-SUFFIX,emby.cjpc.cc
+DOMAIN-SUFFIX,emby.cjpc.tv
 DOMAIN-SUFFIX,emby.cjpc.xyz
 DOMAIN-SUFFIX,emby.cristiamo.top
 DOMAIN-SUFFIX,emby.flowercloud.yt
@@ -33,9 +37,11 @@ DOMAIN-SUFFIX,ntt1.jmsooo.com
 DOMAIN-SUFFIX,plusmedia.site
 DOMAIN-SUFFIX,pornemby.club
 DOMAIN-SUFFIX,servers.xeton.dev
+DOMAIN-KEYWORD,emby.wtf
+DOMAIN-KEYWORD,jmsooo
+DOMAIN-KEYWORD,odysseyplus
 DOMAIN-KEYWORD,emby
 DOMAIN-KEYWORD,jmaooo.com
-DOMAIN-KEYWORD,odysseyplus
 DOMAIN-KEYWORD,xeton.dev
 IP-CIDR,161.97.148.156/24,no-resolve
 # Mulgore
