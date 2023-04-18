@@ -1,4 +1,5 @@
 # >Emby
+http://df.poloemby.xyz
 DOMAIN-SUFFIX,agahk1.jmsooo.com
 DOMAIN-SUFFIX,agajp1.jmsooo.com
 DOMAIN-SUFFIX,agasg1.jmsooo.com
@@ -37,3 +38,5 @@ DOMAIN-KEYWORD,jmaooo.com
 DOMAIN-KEYWORD,odysseyplus
 DOMAIN-KEYWORD,xeton.dev
 IP-CIDR,161.97.148.156/24,no-resolve
+# Mulgore
+IP-CIDR,202.61.255.248/32,no-resolve
