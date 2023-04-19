@@ -1,6 +1,7 @@
 # >Emb
 # 参考链接:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Emby/Emby.list
 
+
 DOMAIN,df.poloemby.xyz
 DOMAIN,emby.enjoyit.eu.org
 DOMAIN-SUFFIX,agahk1.jmsooo.com
