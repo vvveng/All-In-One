@@ -16,8 +16,8 @@ let $ = {
 油管:'https://www.youtube.com/',
 内测:'https://testflight.apple.com',
 商店:'https://itunes.apple.com',
-Hub:'https://www.github.com',
-Lab:'https://www.gitlab.com',
+Hub:'https://github.com',
+Lab:'https://gitlab.com',
 GPT:'https://api.openai.com'
 }
 
