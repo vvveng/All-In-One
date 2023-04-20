@@ -16,12 +16,13 @@ let $ = {
 油管:'https://www.youtube.com/',
 内测:'https://testflight.apple.com',
 商店:'https://itunes.apple.com',
-GIT:'https://www.github.com',
+Hub:'https://www.github.com',
+Lab:'https://www.gitlab.com',
 GPT:'https://api.openai.com'
 }
 
 !(async () => {
-await Promise.all([http('百度'),http('谷歌'),http('油管'),http('商店'),http('内测'),http('GIT'),http('GPT')]).then((x)=>{
+await Promise.all([http('百度'),http('谷歌'),http('油管'),http('商店'),http('内测'),http('Hub'),http('Lab'),http('GPT')]).then((x)=>{
 	$done({
     title: '网络延迟',
     content: x.join('\n'),
