@@ -1,5 +1,5 @@
 /* key
- * 修改自 https://github.com/qwerzl/rename.js
+ * 修改自 https://keywos.cf/rename.js，https://github.com/qwerzl/rename.js
  * 在SubStore内对节点重命名为：地区 01 ...
  * 过滤掉不规范命名的节点 例如 剩余,过期...
  * SubStore内选择"脚本操作"，填写脚本地址
