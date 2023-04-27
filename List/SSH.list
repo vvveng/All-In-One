@@ -13,3 +13,4 @@ DOMAIN,sg01.345585.xyz
 DOMAIN,sg02.345585.xyz
 DOMAIN,sg03.345585.xyz
 DOMAIN,sg04.345585.xyz
+DOMAIN-SUFFIX,servicebus.windows.net
