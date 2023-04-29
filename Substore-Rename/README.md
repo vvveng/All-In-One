@@ -1,7 +1,9 @@
 用于substore批量重命名
 更新地址：https://keywos.cf/rename.js
 使用方法如下：
-// @key 重构本地批量重命名 2023.4.28 substore-脚本-本地批量重命名
+//作者 @key
+
+ substore-脚本-本地批量重命名
 // in: ——机场原本节点名 默认中文
 // out: ——输出节点名 默认中文 
 // 可选: cn ，us ，quan
