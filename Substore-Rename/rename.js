@@ -34,7 +34,7 @@ var countries = inputList.reduce((acc, curr, index) => {
 }, {});
 
 var others = {
-  "[Premium]": "[Premium]", 核心: 'Kern', 边缘: 'Edge', 高级: 'Pro', 标准: 'Std', 实验: 'Exp', 商宽: 'Biz', 家宽: 'Fam', LB: 'LB', IPLC: 'IPLC', 'IEPL': 'IEPL',
+  "[Premium]": "[Premium]", 核心: 'Kern', 边缘: 'Edge', 高级: 'Pro', 标准: 'Std', 实验: 'Exp', 商宽: 'Biz', 家宽: 'Fam', LB: 'LB', IPLC: 'IPLC', 'IEPL': 'IEPL','专线': 'DL',
    //沪日: 'SH-Japan', //沪韩: 'SH-Korea', //沪美: 'SH-United States', //广港: 'GZ-Hong Kong', //广新: 'GZ-Singapore', //深港: 'SZ-Hong Kong', //莞港: 'DG-Hong Kong',
 };
 function operator(proxies) {
