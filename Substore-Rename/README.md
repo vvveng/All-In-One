@@ -1,5 +1,5 @@
 用于substore批量重命名
-更新地址：https://keywos.cf/rename.js
+更新地址：https://github.com/Keywos/rule/raw/main/rename.js
 使用方法如下：
 //作者 @key
 
