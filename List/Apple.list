@@ -1,9 +1,7 @@
 # Apple
-DOMAIN, p22-buy.itunes.apple.com, 特殊域名
-DOMAIN, buy.itunes.apple.com, 特殊域名
-DOMAIN-SUFFIX,apple.co,特殊域名
-DOMAIN, in.appcenter.ms, 特殊域名
 
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.cn
@@ -19,9 +17,27 @@ DOMAIN,apple.comscoreresearch.com
 DOMAIN-KEYWORD,apple.com.akadns.net
 DOMAIN-KEYWORD,icloud.com.akadns.net
 DOMAIN,inappcheck.itunes.apple.com
-DOMAIN, xp.apple.com
+DOMAIN,xp.apple.com
 DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,appsto.re
+DOMAIN-KEYWORD,apple.com.akadns.net
+DOMAIN-KEYWORD,apple.com.edgekey.net
+DOMAIN-KEYWORD,testflight
+DOMAIN-KEYWORD,icloud.com.akadns.net
+USER-AGENT,com.apple.appstored*
+USER-AGENT,Music*
+USER-AGENT,AppleNews*
+USER-AGENT,com.apple.news*
+USER-AGENT,com.apple.trustd*
+USER-AGENT,AppleTV*
+USER-AGENT,com.apple.tv*
+DOMAIN-KEYWORD,apple-support.akadns.net
+PROCESS-NAME,storedownloadd
+PROCESS-NAME,com.apple.geod
+PROCESS-NAME,Music
+PROCESS-NAME,News
+PROCESS-NAME,LookupViewService
+PROCESS-NAME,TV
 IP-CIDR,17.0.0.0/8
 IP-CIDR,63.92.224.0/19
 IP-CIDR,65.199.22.0/23
@@ -30,3 +46,13 @@ IP-CIDR,144.178.0.0/19
 IP-CIDR,192.35.50.0/24
 IP-CIDR,198.183.17.0/24
 IP-CIDR,205.180.175.0/24
+IP-CIDR,139.178.128.0/18
+IP-CIDR,144.178.0.0/19
+IP-CIDR,144.178.36.0/22
+IP-CIDR,144.178.48.0/20
+IP-CIDR,17.0.0.0/8
+IP-CIDR,192.35.50.0/24
+IP-CIDR,198.183.17.0/24
+IP-CIDR,205.180.175.0/24
+IP-CIDR,63.92.224.0/19
+IP-CIDR,65.199.22.0/23
