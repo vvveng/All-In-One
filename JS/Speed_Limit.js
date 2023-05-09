@@ -1,9 +1,9 @@
 //需要自己吧下面的direct三个数值改成自己对应的直连选项
 try {
-   const [Group, policy, time, minSpeed, DIR] = $argument.match(/(?<=\=)[^&]+/g);
+   const [Group, policy, DIR, time, minSpeed] = $argument.match(/(?<=\=)[^&]+/g);
 
-   [Group, policy, time, minSpeed, DIR].forEach((value, index) => {
-      const _value = ["Group", "Policy", "Time", "MinSpeed", "DIR"][index];
+   [Group, policy, DIR, time, minSpeed].forEach((value, index) => {
+      const _value = ["Group", "Policy", "DIR", "Time", "MinSpeed"][index];
       if (!value) {
          throw `${_value} 不能为空`;
       } else if (index >= 2 && isNaN(value)) {
