@@ -22,7 +22,7 @@ try {
    };
 
 // 下方调整过期时间，默认为一小时，调整对应比例，调整直连名称下方两处  
-   if (Date.now() - lastUpdateTime >= 1 / 60 * 3600000) {
+   if (Date.now() - lastUpdateTime >= 1 * 3600000) {
       policyGroupName(`${Group}`) !== "🔘 𝘿𝙄𝙍𝙀𝘾𝙏" && $surge.setSelectGroupPolicy(`${Group}`, "🔘 𝘿𝙄𝙍𝙀𝘾𝙏");
    }
 
