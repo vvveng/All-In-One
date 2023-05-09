@@ -1,4 +1,4 @@
-# 需要自己吧下面的direct三个数值改成自己对应的直连选项
+//需要自己吧下面的direct三个数值改成自己对应的直连选项
 try {
    const [Group, policy, time, minSpeed] = $argument.match(/(?<=\=)[^&]+/g);
 
