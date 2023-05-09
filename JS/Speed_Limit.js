@@ -1,4 +1,4 @@
-let DIR ="🔘 𝘿𝙄𝙍𝙀𝘾𝙏"
+# 需要自己吧下面的direct三个数值改成自己对应的直连选项
 try {
    const [Group, policy, time, minSpeed] = $argument.match(/(?<=\=)[^&]+/g);
 
@@ -22,7 +22,7 @@ try {
    };
 
    if (Date.now() - lastUpdateTime >= 1 * 3600000) {
-      policyGroupName(`${Group}`) !== `DIR` && $surge.setSelectGroupPolicy(`${Group}`, `DIR`);
+      policyGroupName(`${Group}`) !== "🔘 𝘿𝙄𝙍𝙀𝘾𝙏" && $surge.setSelectGroupPolicy(`${Group}`, "🔘 𝘿𝙄𝙍𝙀𝘾𝙏");
    }
 
    $done({ matched: true });
@@ -56,7 +56,7 @@ try {
          if (current_speed >= minSpeed * 1048576) return;
       } //结束循环
 
-      if (policyGroupName(`${Group}`) === `DIR`) {
+      if (policyGroupName(`${Group}`) === "🔘 𝘿𝙄𝙍𝙀𝘾𝙏") {
          $surge.setSelectGroupPolicy(`${Group}`, `${policy}`);
          $notification.post(
             `🎉🎉🎉切换成功 监控时间${time}秒`,
