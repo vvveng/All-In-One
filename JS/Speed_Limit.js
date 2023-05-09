@@ -21,7 +21,6 @@ try {
       return $surge.selectGroupDetails().decisions[Group];
    };
 
-// 下方调整过期时间，默认为一小时，调整对应比例，调整直连名称下方两处  
    if (Date.now() - lastUpdateTime >= `${last_time}` * 1000) {
       policyGroupName(`${Group}`) !== `${DIR}` && $surge.setSelectGroupPolicy(`${Group}`, `${DIR}`);
    }
