@@ -22,7 +22,7 @@ try {
    };
 
    if (Date.now() - lastUpdateTime >= 1 * 3600000) {
-      policyGroupName(`${Group}`) !== DIR && $surge.setSelectGroupPolicy(`${Group}`, DIR);
+      policyGroupName(`${Group}`) !== "DIR" && $surge.setSelectGroupPolicy(`${Group}`, "DIR");
    }
 
    $done({ matched: true });
@@ -56,7 +56,7 @@ try {
          if (current_speed >= minSpeed * 1048576) return;
       } //结束循环
 
-      if (policyGroupName(`${Group}`) === DIR) {
+      if (policyGroupName(`${Group}`) === "DIR") {
          $surge.setSelectGroupPolicy(`${Group}`, `${policy}`);
          $notification.post(
             `🎉🎉🎉切换成功 监控时间${time}秒`,
