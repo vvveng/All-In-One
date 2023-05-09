@@ -1,8 +1,8 @@
 try {
-   const [Group, policy, DIR, sURL, time, minSpeed, last_time] = $argument.match(/(?<=\=)[^&]+/g);
+   const [Group, policy, DIR, time, minSpeed, last_time] = $argument.match(/(?<=\=)[^&]+/g);
 
-   [Group, policy, DIR, sURL, time, minSpeed,last_time].forEach((value, index) => {
-      const _value = ["Group", "Policy", "DIR", "sURL", "Time", "MinSpeed", "last_time"][index];
+   [Group, policy, DIR, time, minSpeed,last_time].forEach((value, index) => {
+      const _value = ["Group", "Policy", "DIR", "Time", "MinSpeed", "last_time"][index];
       if (!value) {
          throw `${_value} 不能为空`;
       } else if (index >= 3 && isNaN(value)) {
@@ -29,7 +29,7 @@ try {
    const speed = () => {
       return new Promise((r) => {
          $httpAPI("GET", "/v1/requests/active", null, (data) =>
-            r(data.requests.find((item) => item.URL.includes(`${sURL}`))?.inCurrentSpeed),
+            r(data.requests.find((item) => item.URL.includes(`iosapps.itunes.apple.com`))?.inCurrentSpeed),
          );
       });
    };
