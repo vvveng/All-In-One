@@ -1,9 +1,9 @@
 //需要自己吧下面的direct三个数值改成自己对应的直连选项
 try {
-   const [Group, policy, DIR, time, minSpeed] = $argument.match(/(?<=\=)[^&]+/g);
+   const [Group, policy, DIR, time, minSpeed, last_time] = $argument.match(/(?<=\=)[^&]+/g);
 
-   [Group, policy, DIR, time, minSpeed].forEach((value, index) => {
-      const _value = ["Group", "Policy", "DIR", "Time", "MinSpeed"][index];
+   [Group, policy, DIR, time, minSpeed,last_time].forEach((value, index) => {
+      const _value = ["Group", "Policy", "DIR", "Time", "MinSpeed", "last_time"][index];
       if (!value) {
          throw `${_value} 不能为空`;
       } else if (index >= 3 && isNaN(value)) {
@@ -22,7 +22,7 @@ try {
    };
 
 // 下方调整过期时间，默认为一小时，调整对应比例，调整直连名称下方两处  
-   if (Date.now() - lastUpdateTime >= 1 * 3600000) {
+   if (Date.now() - lastUpdateTime >= `${last_time}` * 1000) {
       policyGroupName(`${Group}`) !== `${DIR}` && $surge.setSelectGroupPolicy(`${Group}`, `${DIR}`);
    }
 
@@ -57,7 +57,6 @@ try {
          if (current_speed >= minSpeed * 1048576) return;
       } //结束循环
 
-// 下方一处调整直连名称
       if (policyGroupName(`${Group}`) === `${DIR}`) {
          $surge.setSelectGroupPolicy(`${Group}`, `${policy}`);
          $notification.post(
