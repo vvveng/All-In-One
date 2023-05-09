@@ -1,9 +1,9 @@
 //需要自己吧下面的direct三个数值改成自己对应的直连选项
 try {
-   const [Group, policy, time, minSpeed, DIR] = $argument.match(/(?<=\=)[^&]+/g);
+   const [Group, policy, time, minSpeed] = $argument.match(/(?<=\=)[^&]+/g);
 
-   [Group, policy, time, minSpeed, DIR].forEach((value, index) => {
-      const _value = ["Group", "Policy", "Time", "MinSpeed", "DIR"][index];
+   [Group, policy, time, minSpeed].forEach((value, index) => {
+      const _value = ["Group", "Policy", "Time", "MinSpeed"][index];
       if (!value) {
          throw `${_value} 不能为空`;
       } else if (index >= 2 && isNaN(value)) {
@@ -23,7 +23,7 @@ try {
 
 // 下方调整过期时间，默认为一小时，调整对应比例，调整直连名称下方两处  
    if (Date.now() - lastUpdateTime >= 1 * 3600000) {
-      policyGroupName(`${Group}`) !== `${DIR}` && $surge.setSelectGroupPolicy(`${Group}`, `${DIR}`);
+      policyGroupName(`${Group}`) !== "🔘 𝘿𝙄𝙍𝙀𝘾𝙏" && $surge.setSelectGroupPolicy(`${Group}`, "🔘 𝘿𝙄𝙍𝙀𝘾𝙏");
    }
 
    $done({ matched: true });
@@ -58,7 +58,7 @@ try {
       } //结束循环
 
 // 下方一处调整直连名称
-      if (policyGroupName(`${Group}`) === `${DIR}`) {
+      if (policyGroupName(`${Group}`) === "🔘 𝘿𝙄𝙍𝙀𝘾𝙏") {
          $surge.setSelectGroupPolicy(`${Group}`, `${policy}`);
          $notification.post(
             `🎉🎉🎉切换成功 监控时间${time}秒`,
