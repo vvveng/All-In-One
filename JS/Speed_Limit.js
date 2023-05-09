@@ -21,7 +21,8 @@ try {
       return $surge.selectGroupDetails().decisions[Group];
    };
 
-   if (Date.now() - lastUpdateTime >= 1 * 3600000) {
+// 下方调整过期时间，单位为毫秒
+   if (Date.now() - lastUpdateTime >= 1 * 30000) {
       policyGroupName(`${Group}`) !== "🔘 𝘿𝙄𝙍𝙀𝘾𝙏" && $surge.setSelectGroupPolicy(`${Group}`, "🔘 𝘿𝙄𝙍𝙀𝘾𝙏");
    }
 
