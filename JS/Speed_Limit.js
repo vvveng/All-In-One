@@ -5,7 +5,7 @@ try {
       const _value = ["Group", "Policy", "DIR", "sURL", "Time", "MinSpeed", "last_time"][index];
       if (!value) {
          throw `${_value} 不能为空`;
-      } else if (index >= 3 && isNaN(value)) {
+      } else if (index >= 4 && isNaN(value)) {
          throw `${_value} 必须为数字`;
       }
    });
