@@ -21,7 +21,7 @@ try {
       return $surge.selectGroupDetails().decisions[Group];
    };
 
-// 下方调整过期时间，单位为毫秒
+// 下方调整过期时间，默认为一小时，调整对应比例，调整直连名称下方两处  
    if (Date.now() - lastUpdateTime >= 1 / 60 * 3600000) {
       policyGroupName(`${Group}`) !== "🔘 𝘿𝙄𝙍𝙀𝘾𝙏" && $surge.setSelectGroupPolicy(`${Group}`, "🔘 𝘿𝙄𝙍𝙀𝘾𝙏");
    }
@@ -57,6 +57,7 @@ try {
          if (current_speed >= minSpeed * 1048576) return;
       } //结束循环
 
+// 下方一处调整直连名称
       if (policyGroupName(`${Group}`) === "🔘 𝘿𝙄𝙍𝙀𝘾𝙏") {
          $surge.setSelectGroupPolicy(`${Group}`, `${policy}`);
          $notification.post(
