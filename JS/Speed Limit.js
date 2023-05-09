@@ -21,7 +21,7 @@ try {
    };
 
    if (Date.now() - lastUpdateTime >= 1 * 3600000) {
-      policyGroupName(`${Group}`) !== "DIRECT" && $surge.setSelectGroupPolicy(`${Group}`, "DIRECT");
+      policyGroupName(`${Group}`) !== "🔘 𝘿𝙄𝙍𝙀𝘾𝙏" && $surge.setSelectGroupPolicy(`${Group}`, "🔘 𝘿𝙄𝙍𝙀𝘾𝙏");
    }
 
    $done({ matched: true });
@@ -55,7 +55,7 @@ try {
          if (current_speed >= minSpeed * 1048576) return;
       } //结束循环
 
-      if (policyGroupName(`${Group}`) === "DIRECT") {
+      if (policyGroupName(`${Group}`) === "🔘 𝘿𝙄𝙍𝙀𝘾𝙏") {
          $surge.setSelectGroupPolicy(`${Group}`, `${policy}`);
          $notification.post(
             `🎉🎉🎉切换成功 监控时间${time}秒`,
