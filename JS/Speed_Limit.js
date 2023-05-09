@@ -1,4 +1,4 @@
-let DIR =🔘 𝘿𝙄𝙍𝙀𝘾𝙏
+let DIR ="🔘 𝘿𝙄𝙍𝙀𝘾𝙏"
 try {
    const [Group, policy, time, minSpeed] = $argument.match(/(?<=\=)[^&]+/g);
 
