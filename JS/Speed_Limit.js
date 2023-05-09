@@ -22,7 +22,7 @@ try {
    };
 
 // 下方调整过期时间，单位为毫秒
-   if (Date.now() - lastUpdateTime >= 1 / 120 * 3600000) {
+   if (Date.now() - lastUpdateTime >= 1 / 60 * 3600000) {
       policyGroupName(`${Group}`) !== "🔘 𝘿𝙄𝙍𝙀𝘾𝙏" && $surge.setSelectGroupPolicy(`${Group}`, "🔘 𝘿𝙄𝙍𝙀𝘾𝙏");
    }
 
