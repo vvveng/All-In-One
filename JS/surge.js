@@ -1,3 +1,6 @@
-$surge.setSelectGroupPolicy(`${Group}`, `${policy}`);
+$surge.setSelectGroupPolicy(`proxy`);
 $notification.post(
-            `🎉🎉🎉切换成功 监控时间${time}秒`,
+	`🍎 𝘼𝙥𝙥𝙡𝙚  切换到`,
+	` `,
+	`🔘 𝘿𝙄𝙍𝙀𝘾𝙏——>🔥 𝘽𝙚𝙩𝙩𝙚𝙧`);
+$done({});
