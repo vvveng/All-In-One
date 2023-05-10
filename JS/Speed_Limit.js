@@ -30,7 +30,7 @@ try {
       return new Promise((r) => {
          $httpAPI("GET", "/v1/requests/active", null, (data) =>
 
-r(data.requests.find((item) => /`${sURL}`$/.test(item.URL))?.inCurrentSpeed),
+r(data.requests.find((item) => /`${sURL}`/.test(item.URL))?.inCurrentSpeed),
          );
       });
    };
