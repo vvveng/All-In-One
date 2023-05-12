@@ -2,12 +2,10 @@
 #!desc = 将Safari浏览器伪装为Edge浏览器，以便绕过BingAI的使用限制。
 
 [URL Rewrite]
-
 #^https:\/\/www\.bing\.com\/(search|new) header-add X-Forwarded-For 1.1.1.1
-[Script]
 
+[Script]
 http-request ^https:\/\/www\.bing\.com\/(search|new) script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Bing/BingAI.js, requires-body = false, tag = Bing AI
 
 [MITM]
-
 hostname = %APPEND% www.bing.com
