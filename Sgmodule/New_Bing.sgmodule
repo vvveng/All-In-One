@@ -5,7 +5,7 @@
 #^https:\/\/www\.bing\.com\/(search|new) header-add X-Forwarded-For 1.1.1.1
 
 [Script]
-http-request ^https:\/\/www\.bing\.com\/(search|new) script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Bing/BingAI.js, requires-body = false, tag = Bing AI
+Bing AI = type=^https:\/\/www\.bing\.com\/(search|new),requires-body=0,script-update-interval=0,script-path=https://gitlab.com/lodepuly/vpn_tool/-/raw/main/Resource/Script/Bing/BingAI.js
 
 [MITM]
 hostname = %APPEND% www.bing.com
