@@ -1,6 +1,6 @@
 // 使用时先打开模块然后再看应用点击签到
 
-const APPName = '捷径社区参数'
+const APPName = '捷径社区'
 const url = $request.url
 
 const userKey = 'A_JieJing_User'
@@ -14,7 +14,7 @@ if (tokenVal) {
   let user = $persistentStore.write(userVal, userKey)
   if (token) {
     let msg = `${APPName}`
-    $notification.post(msg, '写入成功', '详见日志')
+    $notification.post(msg, '数据写入成功', '详见日志')
     console.log(msg)
     console.log(tokenVal,userVal)
   }
