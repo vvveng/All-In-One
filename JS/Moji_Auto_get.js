@@ -1,6 +1,6 @@
 // 使用时先打开模块然后再看应用点击签到
 
-const APPName = 'Mojitianqi'
+const APPName = '墨迹天气参数'
 const url = $request.url
 const regex1 = /(?<=user_id=)[^\&]+/
 const regex2 = /(?<=sns_id=)[^\&]+/
@@ -18,7 +18,7 @@ if (snsidVal) {
 
   if (snsid) {
     let msg = `${APPName}`
-    $notification.post(msg, 'APP数据写入成功', '详见日志')
+    $notification.post(msg, '数据写入成功', '详见日志')
     console.log(msg)
     console.log(snsidVal,useridVal)
   }
