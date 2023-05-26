@@ -1,29 +1,24 @@
-const APPName = 'TF'
+const APPName = 'Mojitianqi'
 const url = $request.url
-const regex = /(?<=accounts\/)[^\/]+/
-const match = url.match(regex)
-const kKey = 'A_TF_key'
-const kVal = match[0]
+const regex1 = /(?<=user_id=)[^\&]+/
+const regex2 = /(?<=sns_id=)[^\&]+/
+const match1 = url.match(regex1)
+const match2 = url.match(regex2)
+const useridKey = 'A_Moji_User_id'
+const useridVal = match1[0]
+const snsidKey = 'A_Moji_Sns_id'
+const snsidVal = match2[0]
 
-const sessionidKey = 'A_TF_Session_id'
-const sessionidVal = $request.headers['x-session-id']
+if (snsidVal) {
+  let userid = $persistentStore.write(useridVal, useridKey)
+  
+  let snsid = $persistentStore.write(snsidVal, snsidKey)
 
-const sessiondigestKey = 'A_TF_Session_digest'
-const sessiondigestVal = $request.headers['x-session-digest']
-
-const requestidKey = 'A_TF_Request_id'
-const requestidVal = $request.headers['x-request-id']
-
-if (requestidVal) {
-  let sessionid = $persistentStore.write(sessionidVal, sessionidKey)
-  let sessiondigest = $persistentStore.write(sessiondigestVal, sessiondigestKey)
-  let requestid = $persistentStore.write(requestidVal, requestidKey)
-  let key = $persistentStore.write(kVal, kKey)
-  if (requestid) {
+  if (snsid) {
     let msg = `${APPName}`
     $notification.post(msg, 'APP数据写入成功', '详见日志')
     console.log(msg)
-    console.log(sessionidVal,sessiondigestVal,requestidVal,keyVal)
+    console.log(snsidVal,useridVal)
   }
 }
 
