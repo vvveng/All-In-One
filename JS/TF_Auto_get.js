@@ -1,9 +1,9 @@
 const APPName = 'TF'
 const url = $request.url
-const regex = (?<=accounts\/)[^\/]+
+const regex = /accounts\/[^\/]+/
 const match = url.match(regex)
 const kKey = 'A_TF_key'
-const kVal = match[1]
+const kVal = match[0]
 
 const sessionidKey = 'A_TF_Session_id'
 const sessionidVal = $request.headers['x-session-id']
