@@ -1,4 +1,4 @@
-const APPName = 'TF'
+const APPName = 'TF参数'
 const url = $request().url
 const regex = /(?<=accounts\/)[^\/]+/
 const match = url.match(regex)
@@ -21,7 +21,7 @@ if (requestidVal) {
   let key = $persistentStore.write(kVal, kKey)
   if (requestid) {
     let msg = `${APPName}`
-    $notification.post(msg, 'APP数据写入成功', '详见日志')
+    $notification.post(msg, '写入成功', '详见日志')
     console.log(msg)
     console.log(sessionidVal,sessiondigestVal,requestidVal,keyVal)
   }

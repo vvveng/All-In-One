@@ -18,7 +18,7 @@ if (snsidVal) {
 
   if (snsid) {
     let msg = `${APPName}`
-    $notification.post(msg, '数据写入成功', '详见日志')
+    $notification.post(msg, '写入成功', '详见日志')
     console.log(msg)
     console.log(snsidVal,useridVal)
   }
