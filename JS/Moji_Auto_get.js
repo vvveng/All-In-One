@@ -1,3 +1,5 @@
+// 使用时先打开模块然后再看应用点击签到
+
 const APPName = 'Mojitianqi'
 const url = $request.url
 const regex1 = /(?<=user_id=)[^\&]+/
