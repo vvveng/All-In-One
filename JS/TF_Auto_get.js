@@ -1,10 +1,16 @@
 const APPName = 'TF'
-const keyKey = 'A_TF_Session_id'
-const keyVal = $request.headers['x-session-id']
+const url = $request.url
+const regex = /\/apps\/([a-z0-9-]+)/i
+const match = url.match(regex)
+const keyKey = 'A_TF_key'
+const keyVal = match[1]
+
 const sessionidKey = 'A_TF_Session_id'
 const sessionidVal = $request.headers['x-session-id']
+
 const sessiondigestKey = 'A_TF_Session_digest'
 const sessiondigestVal = $request.headers['x-session-digest']
+
 const requestidKey = 'A_TF_Request_id'
 const requestidVal = $request.headers['x-request-id']
 
