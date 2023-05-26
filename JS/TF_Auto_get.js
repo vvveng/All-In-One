@@ -18,7 +18,7 @@ if (requestidVal) {
   let sessionid = $persistentStore.write(sessionidVal, sessionidKey)
   let sessiondigest = $persistentStore.write(sessiondigestVal, sessiondigestKey)
   let requestid = $persistentStore.write(requestidVal, requestidKey)
-  let key = $persistentStore.write(keyVal, keyKey)
+  let key = $persistentStore.write(kVal, kKey)
   if (requestid) {
     let msg = `${APPName}`
     $notification.post(msg, 'APP数据写入成功', '详见日志')
