@@ -1,6 +1,6 @@
 const APPName = 'TF'
 const url = $request.url
-const regex = /accounts\/[^\/]+/
+const regex = /(?<=accounts\/)[^\/]+/
 const match = url.match(regex)
 const kKey = 'A_TF_key'
 const kVal = match[0]
