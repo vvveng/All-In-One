@@ -6,7 +6,7 @@ const url = $request.url
 const userKey = 'A_JieJing_User'
 const userVal = $request.headers['x-user']
 
-const tokenKey = 'A_JieJing_token'
+const tokenKey = 'A_JieJing_Token'
 const tokenVal = $request.headers['x-token']
 
 if (tokenVal) {
