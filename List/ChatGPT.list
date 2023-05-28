@@ -1,7 +1,7 @@
 # > ChatGPT
-DOMAIN,api.openai.com
-DOMAIN,chat.openai.com
+
+DOMAIN,cdn.auth0.com
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,identrust.com
 DOMAIN-SUFFIX,openai.com
-# 调查
-DOMAIN-SUFFIX,hsforms.com
-DOMAIN-KEYWORD,forms.net
