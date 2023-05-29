@@ -14,7 +14,7 @@ let login = {
 
 $httpClient.post(login, function(error, response, data) {
   if (response.status === 200) {
-    $notification.post(name+'签到', '登录成功', '');
+    $notification.post(name, '登录成功', '');
     // 签到
     let checkin = {
       url: url + '/user/checkin',
@@ -28,17 +28,17 @@ $httpClient.post(login, function(error, response, data) {
         let result = JSON.parse(data);
         if (result.ret === 1) {
           let detail = '签到成功，获得 ' + result.traffic + ' 流量';
-          $notification.post(name+'签到', detail, ''); 
+          $notification.post(name, detail, ''); 
         } else if (result.ret === 0) {
           let detail = '今日已签到';
-          $notification.post(name+'签到', detail, '');
+          $notification.post(name, detail, '');
         }
       } else {
-        $notification.post(name+'签到', '签到失败', '');
+        $notification.post(name, '签到失败', '');
       }
     });
   } else {
-    $notification.post(name+'签到', '登录失败', '');
+    $notification.post(name, '登录失败', '');
   }
 });
 
