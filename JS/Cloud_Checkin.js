@@ -1,33 +1,45 @@
-let email = $persistentStore.read('A_Cloud_checkinemail')
-let pwd = $persistentStore.read('A_Cloud_checkinpwd')
-let url0 = $persistentStore.read('A_Cloud_checkinurl')
+let email = $persistentStore.read('A_Cloud_checkinemail');
+let password = $persistentStore.read('A_Cloud_checkinpwd');
+let url =$persistentStore.read('A_Cloud_checkinurl');
+let name = $persistentStore.read('A_Cloud_checkintitle');
 
-
+// 登录
 let login = {
-	url: url0 + "/auth/login",
-    body: "code=&email=" + email + "&passwd=" pwd + "&remember_me=week",
+  url: url + '/auth/login',
+  body: 'email=' + email + '&passwd=' + password,
+  headers: {
+    'Content-Type': 'application/x-www-form-urlencoded',
+  },
 };
-$httpClient.get(login, (data) => {
-	let detail ="登陆成功";
-	$notification.post("开始签到", "", detail);
-	$done({ detail });
+
+$httpClient.post(login, function(error, response, data) {
+  if (response.status === 200) {
+    $notification.post(name+'签到', '登录成功', '');
+    // 签到
+    let checkin = {
+      url: url + '/user/checkin',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Referer': url + '/user',
+      },
+    };
+    $httpClient.post(checkin, function(error, response, data) {
+      if (response.status === 200) {
+        let result = JSON.parse(data);
+        if (result.ret === 1) {
+          let detail = '签到成功，获得 ' + result.traffic + ' 流量';
+          $notification.post(name+'签到', detail, ''); 
+        } else if (result.ret === 0) {
+          let detail = '今日已签到';
+          $notification.post(name+'签到', detail, '');
+        }
+      } else {
+        $notification.post(name+'签到', '签到失败', '');
+      }
+    });
+  } else {
+    $notification.post(name+'签到', '登录失败', '');
+  }
 });
 
-const checkin = {
-    url: url0 + "/user/checkin",
-    body: "",
-};
-$httpClient.post(checkin, function(error, response, data) {
-    if (error) {
-        console.log(error)
-	let detail ="签到失败";
-	$notification.post("", "", detail);
-        $done(detail);
-    } else  {
-        //let data = JSON.parse(data)
-        console.log(data)
-	let detail = console.log(data);
-	$notification.post("", "", detail);
-        $done(detail);
-    }
-});
+$done({});
