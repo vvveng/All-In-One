@@ -1,23 +1,33 @@
-let email = $persistentStore.read('A_Cloud_email');
-let sessionid = $persistentStore.read('A_Cloud_passwd');
-let sessionid = 'week';
-$httpClient.post(requestid, (data) => {
-	$done({ key, sessionid, sessiondigest,requestid});
+let email = $persistentStore.read('A_Cloud_checkinemail')
+let pwd = $persistentStore.read('A_Cloud_checkinpwd')
+let url0 = $persistentStore.read('A_Cloud_checkinurl')
+
+
+let login = {
+	url: url0 + "/auth/login",
+    body: "code=&email=" + email + "&passwd=" pwd + "&remember_me=week",
+};
+$httpClient.get(login, (data) => {
+	let detail ="登陆成功";
+	$notification.post("开始签到", "", detail);
+	$done({ detail });
 });
 
-
-
-if (requestidVal) {
-  let sessionid = $persistentStore.write(sessionidVal, sessionidKey)
-  let sessiondigest = $persistentStore.write(sessiondigestVal, sessiondigestKey)
-  let requestid = $persistentStore.write(requestidVal, requestidKey)
-  let key = $persistentStore.write(kVal, kKey)
-  if (requestid) {
-    let msg = `${APPName}`
-    $notification.post(msg, '数据写入成功', '详见日志')
-    console.log(msg)
-    console.log(sessionidVal,sessiondigestVal,requestidVal,keyVal)
-  }
-}
-
-$done({})
+const checkin = {
+    url: url0 + "/user/checkin",
+    body: "",
+};
+$httpClient.post(checkin, function(error, response, data) {
+    if (error) {
+        console.log(error)
+	let detail ="签到失败";
+	$notification.post("", "", detail);
+        $done(detail);
+    } else  {
+        //let data = JSON.parse(data)
+        console.log(data)
+	let detail = console.log(data);
+	$notification.post("", "", detail);
+        $done(detail);
+    }
+});
