@@ -14,6 +14,7 @@ let login = {
 
 $httpClient.post(login, function(error, response, data) {
   if (response.status === 200) {
+    $notification.post(name, '登录成功', '');
     // 签到
     let checkin = {
       url: url + '/user/checkin',
