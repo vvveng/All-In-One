@@ -27,7 +27,7 @@ $httpClient.post(login, function(error, response, data) {
       if (response.status === 200) {
         let result = JSON.parse(data);
         if (result.ret === 1) {
-          let detail = '签到成功，' + result.msg + ' 流量';
+          let detail = '签到成功，' + result.msg + '';
           $notification.post(name, detail, ''); 
         } else if (result.ret === 0) {
           let detail = '今日已签到';
