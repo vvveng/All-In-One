@@ -1,30 +1,17 @@
-const APPName = 'TestFlight'
-const url = $request().url
-const regex = /(?<=accounts\/)[^\/]+/
-const match = url.match(regex)
-const kKey = 'A_TF_key'
-const kVal = match[0]
-
-const sessionidKey = 'A_TF_Session_id'
-const sessionidVal = $request.headers['x-session-id']
-
-const sessiondigestKey = 'A_TF_Session_digest'
-const sessiondigestVal = $request.headers['x-session-digest']
-
-const requestidKey = 'A_TF_Request_id'
-const requestidVal = $request.headers['x-request-id']
-
-if (requestidVal) {
-  let sessionid = $persistentStore.write(sessionidVal, sessionidKey)
-  let sessiondigest = $persistentStore.write(sessiondigestVal, sessiondigestKey)
-  let requestid = $persistentStore.write(requestidVal, requestidKey)
-  let key = $persistentStore.write(kVal, kKey)
-  if (requestid) {
-    let msg = `${APPName}`
-    $notification.post(msg, '数据写入成功', '详见日志')
-    console.log(msg)
-    console.log(sessionidVal,sessiondigestVal,requestidVal,keyVal)
-  }
+const APPName = 'TestFlight';
+const url = $request.url;
+const regex = /(?<=accounts\/)[^\/]+/;
+const match = url.match(regex);
+const A_TF = {};
+A_TF.Key = match[0];
+A_TF.Session_id = $request.headers['x-session-id'];
+A_TF.Session_digest = $request.headers['x-session-digest'];
+A_TF.Request_id = $request.headers['x-request-id'];
+$persistentStore.write(JSON.stringify(A_TF), 'A_TF');
+if (A_TF.Request_id) {
+let msg = `${APPName}`;
+$notification.post(msg,'','写入成功');
+console.log(msg);
+console.log(A_TF.Key, A_TF.Session_id, A_TF.Session_digest, A_TF.Request_id);
 }
-
-$done({})
+$done();
