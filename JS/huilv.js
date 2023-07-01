@@ -39,7 +39,8 @@ $.http.get({
                 if (rate > 1) {
                     line = `${target[1]} 1${source[0]}\t${target[0]}: ${roundNumber(rate, digits)}\n`;
                 } else {
-                    line = `${target[1]} 1${target[0]}   \tCNY: ${roundNumber(1 / rate, digits)}\n`;
+                    line = `${target[1]} 1${target[0]}   \tCNY: ${roundNumber(rate, digits)}\n`;
+//改成大于1                    line = `${target[1]} 1${target[0]}   \tCNY: ${roundNumber(1 / rate, digits)}\n`;
                 }
             }
             return accumulator + line;
