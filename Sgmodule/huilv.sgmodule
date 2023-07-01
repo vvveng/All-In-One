@@ -1,5 +1,6 @@
 #!name=监控汇率变化
 #!desc=实时汇率
+# 原版:https://raw.githubusercontent.com/getsomecat/GetSomeCats/Surge/modules/exchangerate.sgmodule
 
 [Panel]
 CNYUSD = script-name=CNYUSD,update-interval=43200
