@@ -359,9 +359,6 @@ DOMAIN-SUFFIX,yun-hl.3g.qq.com
 USER-AGENT,WeChat*
 USER-AGENT,MicroMessenger*
 
-IP-ASN,132203,no-resolve
-
-
 #DOMAIN,szshort.weixin.qq.com
 #DOMAIN,szextshort.weixin.qq.com
 #DOMAIN,szminorshort.weixin.qq.com
