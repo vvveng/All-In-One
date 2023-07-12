@@ -1,0 +1,12 @@
+#!name=embyAutoSign
+#!desc=🔗 [2023/7/13 01:17:13] embyAutoSign
+
+# 🔗 模块链接
+#SUBSCRIBED 
+
+[Script]
+
+embyAutoSign = type=http-request, pattern=emby/Users/AuthenticateByName, requires-body=true, max-size=3145728, script-path=https://gitlab.com/vvveng/All-In-One/-/raw/main/JS/embyAutoSign.js, timeout=60, script-update-interval=0
+
+embyAutoSign_cron = type=cron, cronexp="15 15 * * *", script-path=https://gitlab.com/vvveng/All-In-One/-/raw/main/JS/embyAutoSign.js, timeout=60, wake-system=1
+
