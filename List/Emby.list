@@ -1,22 +1,6 @@
 # >Emby
 # 参考链接:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Emby/Emby.list
 
-
-# 垃圾影音
-DOMAIN,cf.emby.ml
-# bdd
-DOMAIN,media.bddup.com
-# misty
-DOMAIN,misty.ltd
-# polo
-DOMAIN-SUFFIX,poloemby.xyz
-# 终点站
-DOMAIN-KEYWORD,emby.wtf
-# acemby
-DOMAIN-SUFFIX,acemby.org
-# 奥赛得
-DOMAIN-KEYWORD,odysseyplus
-
 DOMAIN,emby.enjoyit.eu.org
 DOMAIN-SUFFIX,agahk1.jmsooo.com
 DOMAIN-SUFFIX,agajp1.jmsooo.com
@@ -52,10 +36,6 @@ DOMAIN-SUFFIX,ntt1.jmsooo.com
 DOMAIN-SUFFIX,plusmedia.site
 DOMAIN-SUFFIX,pornemby.club
 DOMAIN-SUFFIX,servers.xeton.dev
+DOMAIN-KEYWORD,emby.wtf
 DOMAIN-KEYWORD,jmsooo
-DOMAIN-KEYWORD,emby
-DOMAIN-KEYWORD,jmaooo.com
-DOMAIN-KEYWORD,xeton.dev
-IP-CIDR,161.97.148.156/24,no-resolve
-# Mulgore
-IP-CIDR,202.61.255.248/32,no-resolve
+DOMAIN-KEYWORD,odysseyplus
