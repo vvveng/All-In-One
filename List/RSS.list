@@ -8,6 +8,5 @@ DOMAIN-SUFFIX,lireapp.com
 DOMAIN-SUFFIX,jamesshore.com
 DOMAIN-SUFFIX,inoreader.com
 DOMAIN-SUFFIX,feedx.net
-DOMAIN,feeds.appinn.com
-DOMAIN,feed.appinn.com
+DOMAIN-SUFFIX,appinn.com
 DOMAIN,www.rfa.org
