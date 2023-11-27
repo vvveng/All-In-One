@@ -1,0 +1,6 @@
+#!name=embyAutoSign
+#!desc=🔗 [2023/7/13 01:17:13] embyAutoSign
+
+[Script]
+
+0 10 0 * * ? https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js, tag=阿里云签到, img-url=https://raw.githubusercontent.com/Crazy-Z7/Task/main/Image/IMG_0908.jpeg, enabled=true
