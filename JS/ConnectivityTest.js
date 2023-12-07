@@ -7,7 +7,7 @@ Surge:
 网络延迟 = script-name=网络延迟,update-interval=1
 
 [Script]
-网络延迟 = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/ConnectivityTest.js,argument=title=网络延迟&server=false
+网页连通性 = type=generic,timeout=3,argument=title=Connectivity Test&server=false,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/ConnectivityTest.js
 
  */
 let $ = {

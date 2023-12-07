@@ -1,1 +1,0 @@
-cron=Cron_GroupAuto&cronexp=*/10 0,9-23 * * *&arg=GroupAuto+Cron_GroupAuto+Barkapps=&argv=tolerance=10&timecache=18&color=#6699FF&push&icon=speedometer&avgnumber=10&group=🇸🇬 𝙒𝘼𝙍𝙋+tolerance=10&timecache=18&avgnumber=10&group=🇸🇬 𝙒𝘼𝙍𝙋+yjphnUxDXbXAEKnQdZ3QsE&evalScriptori=&evalScriptmodi=body = body.replace(/阿里网盘token/gi,'#阿里网盘token')
