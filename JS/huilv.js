@@ -4,7 +4,7 @@
 [Panel]
 CNYUSD = script-name=CNYUSD,update-interval=43200
 [Script]
-CNYUSD = type=generic,timeout=10,script-path=https://github.com/Keywos/rule/raw/main/JS/MBcnyusd.js
+CNYUSD = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/huilv.js
  */
 
 const base = "CNY"; // 基准货币，可以改成其他币种
