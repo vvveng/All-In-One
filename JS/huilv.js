@@ -1,6 +1,7 @@
 /* 监控汇率变化,@Peng-YM @chxm1023
  * @Key 改了下面板格式 2023-07-01 15:29:42
  
+ 
 [Panel]
 CNYUSD = script-name=CNYUSD,update-interval=43200
 [Script]
