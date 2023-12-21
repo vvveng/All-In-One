@@ -1,3 +1,5 @@
+# 取自https://raw.githubusercontent.com/ExaAlice/Alice/main/Rule/WARP.list
+
 DOMAIN-KEYWORD,1.1.1.1
 DOMAIN-KEYWORD,cloudflare
 DOMAIN-KEYWORD,warp
