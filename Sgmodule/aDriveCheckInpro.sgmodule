@@ -4,7 +4,6 @@
 
 [Script]
 aliyun = type=cron, cronexp="0 7,11 * * *", script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/aliyuncheckinpro.js, timeout=60, wake-system=1
-
 #aDriveCheckIn = type=http-request, pattern=^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token, script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/aDriveCheckIn.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
