@@ -1,4 +1,5 @@
 /*
+ *原链接 https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/js/Mine/aDriveCheckIn/aDriveCheckIn.js
  * 本脚本旨在实现阿里云盘自动签到，支持Surge,stash,Loon,QuantumultX
  * @author: zqzess
  * 仓库地址：https://github.com/zqzess/rule_for_quantumultX
