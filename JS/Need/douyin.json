@@ -1,35 +1,26 @@
 {
-  "AD": {
-    "抖音视频无水印": {
-      "url": "https://www.rcuts.com/247.html"
-    },
-    "🔸快捷指令大全": {
-      "url": "https://www.rcuts.com"
-    }
-  },
-  "ADname": "更多精彩推荐",
-  "ag": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 aweme_8.3.1 JsSdk/2.0 NetType/WIFI Channel/App Store ByteLocale/zh Region/CN ByteFullLocale/zh-Hans-CN WKWebView/1",
-  "api": "http://api.rcuts.com/Video/DouYin.php",
-  "fail_Menu": [
-    "使用教程",
-    "返回抖音"
-  ],
-  "id": "30",
-  "input": "⚠未检测到网址⚠\n\n请返回抖音>点击分享>复制视频链接\n\n将复制内容粘贴在下方\n⬇️",
-  "list": {
-    "使用教程": "http://www.rcuts.com"
-  },
-  "name": "抖音解析 无水印",
-  "new": "https://www.icloud.com/shortcuts/cfa480fc41d8489cabec4e38909f48b2",
-  "newdesc": "【更新说明】\n问题修复",
+  "id": "31",
+  "rcutsid": "249",
+  "name": "抖音全类型",
   "newtitle": "🆕更新提醒\n新版已发布，请点击“好”免费获取新版本继续使用！",
-  "rcutsid": "247",
+  "newdesc": "【更新说明】\n适配iOS15",
+  "new": "https://i.rcuts.com/get/mp/dy2dg.html",
+  "version": "3",
+  "time": "2020-06-29 12:47:05",
+  "ADname": "更多精彩推荐",
+  "AD": {
+  },
+  "api": "http://api.rcuts.com/Video/DouYin_All.php",
+  "ag": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 aweme_8.3.1 JsSdk/2.0 NetType/WIFI Channel/App Store ByteLocale/zh Region/CN ByteFullLocale/zh-Hans-CN WKWebView/1",
+  "fail_Menu": [
+    "返回抖音",
+  ],
   "success_Menu": [
     "返回抖音",
-    "打开相册",
-    "停止操作"
+    "打开相册"
   ],
-  "success_Title": "抖音解析 无水印（视频已保存）",
-  "time": "2020-06-29 12:47:05",
-  "version": "3"
+  "success_Title": "抖音全类型 解析成功",
+  "input": "⚠未检测到网址⚠\n\n请返回抖音>点击分享>复制视频链接\n\n将复制内容粘贴在下方\n⬇️",
+  "list": {
+  }
 }
