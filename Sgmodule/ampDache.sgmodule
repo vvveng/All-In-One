@@ -1,5 +1,5 @@
 #!name=ampDache
-#!desc=ampDache
+#!desc=原链接：https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js
 
 [Script]
 ampDache = type=http-response, pattern=^https:\/\/(m5(|-zb)|dache)\.amap\.com\/(ws\/yuece\/(act|openapi\/activity\/current)\/query|common\/(alipaymini|wxmini)\?_ENCRYPT=), script-path=https://raw.githubusercontent.com/wf021325/qx/master/task/ampDache.js, requires-body=true, max-size=-1, timeout=60
