@@ -3,7 +3,11 @@
 #!category=☀️
 
 [URL Rewrite]
-^(https?:\/\/(raw\.githubusercontent\.com|gist\.githubusercontent\.com|github\.com\/[^/]+\/[^/]+(\/releases\/download|\/archive))\/.+?)$ https://mirror.ghproxy.com/$1 302
+#gist和raw
+#^(https?:\/\/(raw\.githubusercontent\.com|gist\.githubusercontent\.com)\/.+?)$ https://mirror.ghproxy.com/$1 302
+
+#github
+^(https?:\/\/github\.com\/[^/]+\/[^/]+(\/releases\/download|\/archive)\/.+?)$ https://mirror.ghproxy.com/$1 302
 
 [Header Rewrite]
 http-response ^https:\/\/github\.com\/.+?$ header-del Content-Security-Policy
