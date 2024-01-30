@@ -1,5 +1,5 @@
 #!name= 测试模块
-#!desc=测试模块
+#!desc= 可用于响应体或者请求体替换的测试
 #!category=🌙
 #!arguments=hostname:hostname,request-pattern:request-pattern,request-argument:request-argument,response-pattern:response-pattern,response-argument:response-argument
 #!arguments-desc=参数说明：\nrequest-pattern为请求体链接的正则表达式\nrequest-argument为请求体要被替换的数值和替换的内容\nresponse-pattern为响应体链接的正则表达式\nresponse-argument为请求体要被替换的数值和替换的内容\n\n被替换的数值和替换的内容中间使用 -> 连接；多项被替换的内容用&分割\n\n支持正则修饰符：如argument=/\w+/g->test\n\n修改json格式的键值对可以这样：\nargument=("key")\s?:\s?"(.+?)"->$1: "new_value"\n\n示例:\n请求测试 = type=http-request,requires-body=1,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Good/replace.js, pattern=^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$, argument=("storefrontId")\s?:\s?"(.+?)"->$1: "143441-19,29"
