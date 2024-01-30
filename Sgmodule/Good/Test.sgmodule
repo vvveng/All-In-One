@@ -1,0 +1,33 @@
+#!name= 测试模块
+#!desc=测试模块
+#!category=🌙
+#!arguments=hostname:hostname,request-pattern:request-pattern,request-argument:request-argument,response-pattern:response-pattern,response-argument:response-argument
+#!arguments-desc=参数说明：\nrequest-pattern为请求体链接的正则表达式\nrequest-argument为请求体要被替换的数值和替换的内容\nresponse-pattern为响应体链接的正则表达式\nresponse-argument为请求体要被替换的数值和替换的内容\n\n被替换的数值和替换的内容中间使用 -> 连接\n多项被替换的内容用&分割\n支持正则匹配\n\n支持正则修饰符：如argument=/\w+/g->test\n\n修改json格式的键值对可以这样：\nargument=("key")\s?:\s?"(.+?)"->$1: "new_value"\n\n示例:\n请求测试 = type=http-request,requires-body=1,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Good/replace.js, pattern=^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$, argument=("storefrontId")\s?:\s?"(.+?)"->$1: "143441-19,29"
+
+[MITM]
+hostname = {{{hostname}}}
+
+[Script]
+
+请求测试 = type=http-request,requires-body=1,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Good/replace.js, pattern={{{request-pattern}}}, argument={{{request-argument}}}
+
+
+响应测试 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Good/replace.js, pattern={{{response-pattern}}}, argument={{{response-argument}}}
+
+# 示例如下
+
+#请求测试 = type=http-request,requires-body=1,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Good/replace.js, pattern=^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$, argument=("storefrontId")\s?:\s?"(.+?)"->$1: "143441-19,29"
+
+#响应测试 = type=http-response,requires-body=1,script-path=https://gitlab.com/vvveng/All-In-One/-/raw/main/JS/replace-body.js, pattern=https://service.ilovepdf.com/v1/user, argument=false->true
+
+# argument=要匹配值=作为替换的值
+# 支持正则：如argument=\w+->test
+# 支持正则修饰符：如argument=/\w+/g->test
+# 支持多参数，如：argument=匹配值1->替换值1&匹配值2->替换值2
+
+# 支持改写响应体和请求体体（type=http-response 或 http-request）注意必须打开需要body（requires-body=1）
+
+# 修改json格式的键值对可以这样：
+# argument=("key")\s?:\s?"(.+?)"->$1: "new_value"
+
+# s修饰符可以让.匹配换行符，如 argument=/.+/s->hello
