@@ -14,12 +14,6 @@ hostname = {{{hostname}}}
 
 响应测试 = type=http-response,requires-body=1,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Good/replace.js, pattern={{{response-pattern}}}, argument={{{response-argument}}}
 
-# 示例如下
-
-#请求测试 = type=http-request,requires-body=1,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Good/replace.js, pattern=^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$, argument=("storefrontId")\s?:\s?"(.+?)"->$1: "143441-19,29"
-
-#响应测试 = type=http-response,requires-body=1,script-path=https://gitlab.com/vvveng/All-In-One/-/raw/main/JS/replace-body.js, pattern=https://service.ilovepdf.com/v1/user, argument=false->true
-
 # argument=要匹配值=作为替换的值
 # 支持正则：如argument=\w+->test
 # 支持正则修饰符：如argument=/\w+/g->test
