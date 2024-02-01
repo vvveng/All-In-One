@@ -5,10 +5,10 @@
 
 [URL Rewrite]
 # raw
-^(https:\/\/raw\.githubusercontent\.com\/(((?!vvveng\/({{{group}}})).)*))$ https://mirror.ghproxy.com/$1 302
+#^(https:\/\/raw\.githubusercontent\.com\/(((?!vvveng\/({{{group}}})).)*))$ https://mirror.ghproxy.com/$1 302
 
 # gist
-^(https?:\/\/gist\.githubusercontent\.com\/.+?)$ https://mirror.ghproxy.com/$1 302
+#^(https?:\/\/gist\.githubusercontent\.com\/.+?)$ https://mirror.ghproxy.com/$1 302
 
 #github
 ^(https?:\/\/github\.com\/[^/]+\/[^/]+(\/releases\/download|\/archive)\/.+?)$ https://mirror.ghproxy.com/$1 302
