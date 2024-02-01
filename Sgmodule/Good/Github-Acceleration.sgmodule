@@ -4,10 +4,10 @@
 #!arguments=group:Private|Configuration-Backup
 
 [URL Rewrite]
-# raw
+# raw (开了会降速，不建议开)
 #^(https:\/\/raw\.githubusercontent\.com\/(((?!vvveng\/({{{group}}})).)*))$ https://mirror.ghproxy.com/$1 302
 
-# gist
+# gist (开了会降速，不建议开)
 #^(https?:\/\/gist\.githubusercontent\.com\/.+?)$ https://mirror.ghproxy.com/$1 302
 
 #github
@@ -17,4 +17,4 @@
 http-response ^https:\/\/github\.com\/.+?$ header-del Content-Security-Policy
 
 [MITM]
-hostname = %APPEND% raw.githubusercontent.com, gist.githubusercontent.com, github.com
+hostname = %APPEND% github.com
