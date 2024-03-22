@@ -1,6 +1,6 @@
 #!name= TF_Download
 #!desc= TF_Download
-#!category=☀️
+#!category=常用
 
 [Script]
 TF_Download = type=http-request,pattern=^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$,requires-body=1,script-update-interval=-1,max-size=0,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/TF_Download.js
