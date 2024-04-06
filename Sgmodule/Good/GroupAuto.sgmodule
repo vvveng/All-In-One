@@ -1,6 +1,6 @@
 #!name=GroupAuto
 #!arguments=tolerance:10,timecache:18,color:#6699FF,icon:speedometer,avgnumber:10,group:"🇸🇬 𝙒𝘼𝙍𝙋",cronexp:"*/10 0,9-23 * * *"
-#!category=常用
+#!category=留存
 #!desc=优选节点: 根据 httpApi 返回的 (速度:持久化缓存) (平均延时:持久化缓存) 优选
 # 原链接:https://raw.githubusercontent.com/Keywos/rule/main/module/GroupAuto.sgmodule
 # 作用: 
