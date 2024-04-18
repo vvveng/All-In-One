@@ -1,3 +1,8 @@
+/*
+原版链接①：https://raw.githubusercontent.com/chavyleung/scripts/master/box/switcher/box.switcher.js
+原版链接②：https://gist.githubusercontent.com/Koxiu/d7e2bd6ca57a0295eb82698af608eb70/raw/huihua.js
+
+*/
 const $ = new Env('会话切换');
 $.KEY_sessions = 'chavy_boxjs_sessions';
 $.KEY_curSessions = 'chavy_boxjs_cur_sessions';
