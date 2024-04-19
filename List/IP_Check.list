@@ -1,7 +1,7 @@
 #订阅更新
 #https://raw.githubusercontent.com/bunizao/TutuBetterRules/tutu/RuleList/DOMAlN/Anti-IPCheck.list
 
-# ======= 哔哩哔哩 ======= #
+# ======= 哔哩哔哩 =======
 DOMAIN-SUFFIX,biliapi.net
 # 评论区
 DOMAIN,api.bilibili.com 
@@ -20,14 +20,14 @@ DOMAIN,grpc.biliapi.net
 # biliDNS @Atri
 IP-CIDR,203.107.1.0/24,no-resolve
 
-# ======= 微博 ======= #
+# ======= 微博 =======
 DOMAIN,api.weibo.cn
 DOMAIN,api.weibo.com
 DOMAIN-SUFFIX,weibo.cn
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibocdn.com
 DOMAIN-KEYWORD,weibo
-# ======= 百度贴吧 ======= #
+# ======= 百度贴吧 =======
 DOMAIN,tieba.baidu.com
 DOMAIN,tbmsg.baidu.com
 DOMAIN,tb5.bdstatic.com
@@ -36,20 +36,20 @@ DOMAIN,gsp0.baidu.com
 DOMAIN,hm.baidu.com
 #DOMAIN,www.baidu.com
  
-# ======= 微信 ======= #
+# ======= 微信 =======
 DOMAIN,szshort.weixin.qq.com
 DOMAIN,szextshort.weixin.qq.com
 DOMAIN,szminorshort.weixin.qq.com
 DOMAIN,mp.weixin.qq.com
 
-# ======= 知乎 ======= #
+# ======= 知乎 =======
 DOMAIN,zhihu-web-analytics.zhihu.com
 DOMAIN,www.zhihu.com
 DOMAIN,api.zhihu.com
 DOMAIN-SUFFIX,zhihu.com
 IP-CIDR,103.41.167.0/24,no-resolve
 
-# ======= 抖音 ======= #
+# ======= 抖音 =======
 # 请求域名过多，建议全局代理
 DOMAIN-KEYWORD,core-c-lq
 DOMAIN-KEYWORD,core-lq
@@ -70,9 +70,9 @@ DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,toutiao.com
 
-# ======= 头条 ======= #
+# ======= 头条 =======
 # 网友提供头条IP定位接口
 DOMAIN-SUFFIX,toutiaoapi.com
 
-# ======= 🆕小红书 ======= #
+# ======= 🆕小红书 =======
 DOMAIN-SUFFIX,xiaohongshu.com
