@@ -26,7 +26,7 @@ DOMAIN,api.weibo.com
 DOMAIN-SUFFIX,weibo.cn
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibocdn.com
-DOMAIN-KEYWORD,weibo
+DOMAIN-WILDCARD,weibo
 #  百度贴吧 
 DOMAIN,tieba.baidu.com
 DOMAIN,tbmsg.baidu.com
@@ -51,12 +51,12 @@ IP-CIDR,103.41.167.0/24,no-resolve
 
 #  抖音 
 # 请求域名过多，建议全局代理
-DOMAIN-KEYWORD,core-c-lq
-DOMAIN-KEYWORD,core-lq
-DOMAIN-KEYWORD,normal-c-lq
-DOMAIN-KEYWORD,normal-lq
-DOMAIN-KEYWORD,search-quic-lq
-DOMAIN-KEYWORD,search-lq
+DOMAIN-WILDCARD,core-c-lq
+DOMAIN-WILDCARD,core-lq
+DOMAIN-WILDCARD,normal-c-lq
+DOMAIN-WILDCARD,normal-lq
+DOMAIN-WILDCARD,search-quic-lq
+DOMAIN-WILDCARD,search-lq
 
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,douyincdn.com
