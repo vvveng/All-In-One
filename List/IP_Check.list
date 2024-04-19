@@ -21,12 +21,8 @@ DOMAIN,grpc.biliapi.net
 IP-CIDR,203.107.1.0/24,no-resolve
 
 #  微博 
-DOMAIN,api.weibo.cn
-DOMAIN,api.weibo.com
-DOMAIN-SUFFIX,weibo.cn
-DOMAIN-SUFFIX,weibo.com
-DOMAIN-SUFFIX,weibocdn.com
-DOMAIN-WILDCARD,weibo
+DOMAIN-WILDCARD,*weibo*
+
 #  百度贴吧 
 DOMAIN,tieba.baidu.com
 DOMAIN,tbmsg.baidu.com
@@ -51,12 +47,12 @@ IP-CIDR,103.41.167.0/24,no-resolve
 
 #  抖音 
 # 请求域名过多，建议全局代理
-DOMAIN-WILDCARD,core-c-lq
-DOMAIN-WILDCARD,core-lq
-DOMAIN-WILDCARD,normal-c-lq
-DOMAIN-WILDCARD,normal-lq
-DOMAIN-WILDCARD,search-quic-lq
-DOMAIN-WILDCARD,search-lq
+DOMAIN-WILDCARD,*core-c-lq*
+DOMAIN-WILDCARD,*core-lq*
+DOMAIN-WILDCARD,*normal-c-lq*
+DOMAIN-WILDCARD,*normal-lq*
+DOMAIN-WILDCARD,*search-quic-lq*
+DOMAIN-WILDCARD,*search-lq*
 
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,douyincdn.com
