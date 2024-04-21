@@ -1,6 +1,6 @@
 #!name=GitHub 加速
-#!desc=🔗 [2024/1/29 04:26:16] 自动使用 mirror.ghproxy.com 加速, 去除 github.com 的 Content-Security-Policy
-#!category=☀️
+#!desc= 自动使用 mirror.ghproxy.com 加速, 去除 github.com 的 Content-Security-Policy
+#!category=常用
 #!arguments=group:Private|Configuration-Backup
 
 [URL Rewrite]
