@@ -1,0 +1,24 @@
+#!name=metacubexd
+#!desc=Surge 本地版
+
+[Map Local]
+^https?:\/\/metacubexd\.com\/assets\/Config-DH-Rqh17\.js data-type=file data="metacubexd/assets/Config-DH-Rqh17.js" header="Content-Type:application/javascript;charset=UTF-8"
+^https?:\/\/metacubexd\.com\/assets\/ConfigTitle-DHyKRuSc\.js data-type=file data="metacubexd/assets/ConfigTitle-DHyKRuSc.js" header="Content-Type:application/javascript;charset=UTF-8"
+^https?:\/\/metacubexd\.com\/assets\/Connections-C1U_d5Nx\.js data-type=file data="metacubexd/assets/Connections-C1U_d5Nx.js" header="Content-Type:application/javascript;charset=UTF-8"
+^https?:\/\/metacubexd\.com\/assets\/Logs-lsQuF366\.js data-type=file data="metacubexd/assets/Logs-lsQuF366.js" header="Content-Type:application/javascript;charset=UTF-8"
+^https?:\/\/metacubexd\.com\/assets\/Overview-RYWmXj_3\.js data-type=file data="metacubexd/assets/Overview-RYWmXj_3.js" header="Content-Type:application/javascript;charset=UTF-8"
+^https?:\/\/metacubexd\.com\/assets\/Proxies-DH0m9NaO\.js data-type=file data="metacubexd/assets/Proxies-DH0m9NaO.js" header="Content-Type:application/javascript;charset=UTF-8"
+^https?:\/\/metacubexd\.com\/assets\/Rules-Bw2BZNnE\.js data-type=file data="metacubexd/assets/Rules-Bw2BZNnE.js" header="Content-Type:application/javascript;charset=UTF-8"
+^https?:\/\/metacubexd\.com\/assets\/Setup-DoE3z_4g\.js data-type=file data="metacubexd/assets/Setup-DoE3z_4g.js" header="Content-Type:application/javascript;charset=UTF-8"
+^https?:\/\/metacubexd\.com\/assets\/global-B8TJjWgL\.js data-type=file data="metacubexd/assets/global-B8TJjWgL.js" header="Content-Type:application/javascript;charset=UTF-8"
+^https?:\/\/metacubexd\.com\/assets\/index-BuMbUX1G\.js data-type=file data="metacubexd/assets/index-BuMbUX1G.js" header="Content-Type:application/javascript;charset=UTF-8"
+^https?:\/\/metacubexd\.com\/assets\/index-hv_j-1W6\.js data-type=file data="metacubexd/assets/index-hv_j-1W6.js" header="Content-Type:application/javascript;charset=UTF-8"
+^https?:\/\/metacubexd\.com\/assets\/vendor-DW_s8V88\.js data-type=file data="metacubexd/assets/vendor-DW_s8V88.js" header="Content-Type:application/javascript;charset=UTF-8"
+
+^https?:\/\/metacubexd\.com\/assets\/index-wWDbL3LC\.css data-type=file data="metacubexd/assets/index-wWDbL3LC.css" header="Content-Type:text/css;charset=UTF-8"
+
+^https?:\/\/metacubexd\.com data-type=file data="metacubexd/index.html" header="Content-Type:text/html;charset=UTF-8"
+
+[MITM]
+hostname = %APPEND% metacubexd.com
+
