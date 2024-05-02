@@ -30,7 +30,7 @@ DOMAIN,tb5.bdstatic.com
 DOMAIN,fclog.baidu.com
 DOMAIN,gsp0.baidu.com
 DOMAIN,hm.baidu.com
-DOMAIN,www.baidu.com
+DOMAIN-SUFFIX,baidu.com
  
 #  微信 
 DOMAIN,szshort.weixin.qq.com
