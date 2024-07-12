@@ -1,6 +1,6 @@
 #!name= TrafficStatistics
 #!desc= 流量统计
-#!category=常用
+#!category=网络
 
 [Panel]
 TrafficStatistics = script-name=TrafficStatistics,update-interval=1
