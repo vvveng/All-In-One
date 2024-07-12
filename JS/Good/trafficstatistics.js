@@ -1,3 +1,6 @@
+/*
+原版链接：https://raw.githubusercontent.com/fishingworld/something/main/PanelScripts/trafficstatistics.js
+*/
 let params = getParams($argument)
 
 ;(async () => {
