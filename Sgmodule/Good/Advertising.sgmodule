@@ -1,6 +1,7 @@
 #!name=Block Advertising
 #!desc=通用去广告，原版链接：https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Module/Block/Advertising.sgmodule
 
+
 [URL Rewrite]
 (?i)\b\/ad\/ - reject
 (?i)\b\/ads\/ - reject
