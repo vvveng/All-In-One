@@ -45,6 +45,5 @@ DOMAIN,emby-us-v4.mius.uk // 野兽餐厅
 DOMAIN,gd.9521732.xyz // 纸片人播放
 DOMAIN-SUFFIX,embyplus.org // 纸片人访问
 DOMAIN,film.ohhhh.org // NMEmby
-DOMAIN,emby.pilipiliultra.top // PiliPili
-DOMAIN,stream_pilipili.misakaf.org // PiliPili播放
+DOMAIN-KEYWORD,pilipili // PiliPili
 DOMAIN,free.emby.eu.org // Sakura
