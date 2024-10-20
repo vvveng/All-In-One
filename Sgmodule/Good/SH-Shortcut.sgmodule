@@ -1,4 +1,4 @@
-#!name=模块快捷生成
+#!name=模块快捷转化
 #!desc=快速添加通用链接为Surge模块,依赖Script.hub
 #!category=框架
 #!arguments=SURGE_SUFFIX:s,STASH_SUFFIX:stash,LOON_SUFFIX:loon
