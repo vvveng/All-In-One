@@ -1,3 +1,8 @@
+#!name=AutoJoinTF
+#!desc=AutoJoinTF
+#!https://raw.githubusercontent.com/Yuheng0101/X/main/Tasks/boxjs.json
+
+
 [MITM]
 hostname = %APPEND% testflight.apple.com
 
