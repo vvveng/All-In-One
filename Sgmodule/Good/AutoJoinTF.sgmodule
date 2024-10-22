@@ -3,7 +3,7 @@
 
 [Script]
 
-#TF获取参数 = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/(v3\/accounts\/.*[^\/accept]|join\/[A-Za-z0-9]+)$,requires-body=0,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Good/AutoJoinTF.js,script-update-interval=0
+TF获取参数 = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/(v3\/accounts\/.*[^\/accept]|join\/[A-Za-z0-9]+)$,requires-body=0,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Good/AutoJoinTF.js,script-update-interval=0
 
 TF监控自动加入 = type=cron,cronexp="0/5 * * * * *",wake-system=1,script-path=https://raw.githubusercontent.com/vvveng/All-In-One/main/JS/Good/AutoJoinTF.js,timeout=60
 
