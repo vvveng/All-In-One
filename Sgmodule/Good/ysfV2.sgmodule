@@ -1,0 +1,11 @@
+#!name=ysfV2
+#!desc=ysfV2
+
+[Script]
+云闪付签到 = type=cron, cronexp="22 30 7 * * *", script-path=ysf.js, timeout=300
+
+#云闪付签到获取token = type=http-request, pattern=^https:\/\/youhui.95516.com\/newsign\/api\/sharing_power\/showUserTask, script-path=ysf.js, timeout=10
+
+[MITM]
+hostname = %APPEND% youhui.95516.com
+
