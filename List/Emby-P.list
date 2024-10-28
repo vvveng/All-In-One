@@ -23,7 +23,6 @@ DOMAIN-SUFFIX,emby.nyancat.net
 DOMAIN-SUFFIX,emby.ok.edu.hk
 DOMAIN-SUFFIX,emby.paoche.ooo
 DOMAIN-SUFFIX,emby.prprcloud.com
-DOMAIN-SUFFIX,emby.wtf
 DOMAIN-SUFFIX,emby.xeton.dev
 DOMAIN-SUFFIX,emby.ytoo.li
 DOMAIN-SUFFIX,embyserver.ga
@@ -36,14 +35,11 @@ DOMAIN-SUFFIX,ntt1.jmsooo.com
 DOMAIN-SUFFIX,plusmedia.site
 DOMAIN-SUFFIX,pornemby.club
 DOMAIN-SUFFIX,servers.xeton.dev
-DOMAIN-KEYWORD,emby.wtf
 DOMAIN-KEYWORD,jmsooo
 DOMAIN-KEYWORD,odysseyplus
 DOMAIN,cf.emby.ml
-DOMAIN-SUFFIX,xmsl.org // 垃圾影音
 DOMAIN,emby-us-v4.mius.uk // 野兽餐厅
 DOMAIN,gd.9521732.xyz // 纸片人播放
 DOMAIN-SUFFIX,embyplus.org // 纸片人访问
 DOMAIN,film.ohhhh.org // NMEmby
-DOMAIN-KEYWORD,pilipili // PiliPili
 DOMAIN,free.emby.eu.org // Sakura
