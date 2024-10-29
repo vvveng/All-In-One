@@ -1,43 +1,42 @@
-DOMAIN-SUFFIX,mickeycloud.com
-DOMAIN-KEYWORD,jmsooo
-DOMAIN-SUFFIX,embyserver.ga
-DOMAIN-SUFFIX,emby.mcwy.me
-DOMAIN,emby-us-v4.mius.uk // 野兽餐厅
-DOMAIN-SUFFIX,emby.xeton.dev
-DOMAIN-SUFFIX,emby.nexitally.com
-DOMAIN-SUFFIX,cf1.jmsooo.com
-DOMAIN-SUFFIX,agasg1.jmsooo.com
-DOMAIN,free.emby.eu.org // Sakura
-DOMAIN-SUFFIX,emby.nyancat.net
 DOMAIN,emby.enjoyit.eu.org
-DOMAIN-SUFFIX,emby.mdss.cloud
+DOMAIN-SUFFIX,agahk1.jmsooo.com
+DOMAIN-SUFFIX,agajp1.jmsooo.com
+DOMAIN-SUFFIX,agasg1.jmsooo.com
+DOMAIN-SUFFIX,aws.jmsooo.com
+DOMAIN-SUFFIX,cf1.jmsooo.com
+DOMAIN-SUFFIX,cristiamo.xyz
+DOMAIN-SUFFIX,emby.cjpc.cc
 DOMAIN-SUFFIX,emby.cjpc.tv
-DOMAIN-SUFFIX,movie.xeton.dev
+DOMAIN-SUFFIX,emby.cjpc.xyz
+DOMAIN-SUFFIX,emby.cristiamo.top
+DOMAIN-SUFFIX,emby.flowercloud.yt
+DOMAIN-SUFFIX,emby.immtel.com
+DOMAIN-SUFFIX,emby.maying.club
+DOMAIN-SUFFIX,emby.mcwy.me
+DOMAIN-SUFFIX,emby.mdss.cloud
+DOMAIN-SUFFIX,emby.neko.edu.rs
+DOMAIN-SUFFIX,emby.nexitally.com
+DOMAIN-SUFFIX,emby.nyancat.net
+DOMAIN-SUFFIX,emby.ok.edu.hk
+DOMAIN-SUFFIX,emby.paoche.ooo
+DOMAIN-SUFFIX,emby.prprcloud.com
+DOMAIN-SUFFIX,emby.xeton.dev
+DOMAIN-SUFFIX,emby.ytoo.li
+DOMAIN-SUFFIX,embyserver.ga
+DOMAIN-SUFFIX,hinet.jmsooo.com
+DOMAIN-SUFFIX,jellyfin.xeton.dev
 DOMAIN-SUFFIX,line.emby.men
+DOMAIN-SUFFIX,mickeycloud.com
+DOMAIN-SUFFIX,movie.xeton.dev
 DOMAIN-SUFFIX,ntt1.jmsooo.com
+DOMAIN-SUFFIX,plusmedia.site
+DOMAIN-SUFFIX,pornemby.club
+DOMAIN-SUFFIX,servers.xeton.dev
+DOMAIN-KEYWORD,jmsooo
+DOMAIN-KEYWORD,odysseyplus
+DOMAIN,cf.emby.ml
+DOMAIN,emby-us-v4.mius.uk // 野兽餐厅
+DOMAIN,gd.9521732.xyz // 纸片人播放
 DOMAIN-SUFFIX,embyplus.org // 纸片人访问
 DOMAIN,film.ohhhh.org // NMEmby
-DOMAIN-SUFFIX,emby.ok.edu.hk
-DOMAIN-SUFFIX,agajp1.jmsooo.com
-DOMAIN-SUFFIX,emby.maying.club
-DOMAIN-SUFFIX,hinet.jmsooo.com
-DOMAIN-KEYWORD,odysseyplus
-DOMAIN-SUFFIX,jellyfin.xeton.dev
-DOMAIN-SUFFIX,emby.immtel.com
-DOMAIN-SUFFIX,emby.ytoo.li
-DOMAIN-SUFFIX,emby.cjpc.cc
-DOMAIN-SUFFIX,plusmedia.site
-DOMAIN-SUFFIX,cristiamo.xyz
-DOMAIN-SUFFIX,servers.xeton.dev
-DOMAIN-SUFFIX,aws.jmsooo.com
-DOMAIN-SUFFIX,emby.prprcloud.com
-DOMAIN-SUFFIX,agahk1.jmsooo.com
-DOMAIN-SUFFIX,emby.paoche.ooo
-DOMAIN-SUFFIX,xxx.com // xxx.com
-DOMAIN,cf.emby.ml
-DOMAIN-SUFFIX,emby.neko.edu.rs
-DOMAIN,gd.9521732.xyz // 纸片人播放
-DOMAIN-SUFFIX,emby.cristiamo.top
-DOMAIN-SUFFIX,emby.cjpc.xyz
-DOMAIN-SUFFIX,pornemby.club
-DOMAIN-SUFFIX,emby.flowercloud.yt
+DOMAIN,free.emby.eu.org // Sakura
