@@ -1,6 +1,3 @@
-# >Emby
-# 参考链接:https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Emby/Emby.list
-
 DOMAIN,emby.enjoyit.eu.org
 DOMAIN-SUFFIX,agahk1.jmsooo.com
 DOMAIN-SUFFIX,agajp1.jmsooo.com
@@ -43,3 +40,5 @@ DOMAIN,gd.9521732.xyz // 纸片人播放
 DOMAIN-SUFFIX,embyplus.org // 纸片人访问
 DOMAIN,film.ohhhh.org // NMEmby
 DOMAIN,free.emby.eu.org // Sakura
+DOMAIN-SUFFIX,emby.wtf // emby.wtf
+DOMAIN-KEYWORD,pub1 // pub1
