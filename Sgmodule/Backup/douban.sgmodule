@@ -1,8 +1,0 @@
-#!name=豆瓣电影
-#!desc=豆瓣电影
-
-[Script]
-豆瓣电影 = type=http-response,pattern=^https://m.douban.com/movie/subject/.+,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/githubdulong/Script/master/Douban.js
-
-[MITM]
-hostname = %APPEND% m.douban.com

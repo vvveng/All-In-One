@@ -1,9 +1,0 @@
-#!name=❹ YouTube去广告
-#!desc=油管去广告
-
-[Script]
-# > YouTube去广告
-油管视频 = type=http-request,pattern=^https?:\/\/.+?\.googlevideo\.com\/.+&(oad|ctier)=(?!A),script-path=https://choler.github.io/Surge/Script/YouTube.js
-
-[MITM]
-hostname = %APPEND% *.googlevideo.com
